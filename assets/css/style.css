@@ -1,0 +1,100 @@
+
+
+/*--------------------background images*/
+
+.header-logo {
+    background: url("../images/bgcharts.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    padding: 15px 0 0 15px;
+    display: block;
+}
+
+.bgcharts { 
+  background: url("../images/bgcharts.png") no-repeat center center fixed;
+  opacity: 0.8;
+  width: 100%;
+  min-height:600px;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/*--------------------background colors*/
+
+
+
+.header {
+  background-color: #708090
+}
+
+footer {
+  background-color: #708090
+}
+
+/*--------------------text colors*/
+
+.menuitem{
+  color: #ffffff;
+}
+
+.footer {
+  color: #ffffff;
+}
+
+/*--------------------general*/
+
+
+
+
+.section {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.footer {
+  height: 70px;
+  margin: 0;
+  padding-left: 15px;
+  color: #ffffff;
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+.header {
+  width: 100%;
+  padding-top: 15px;
+  padding-left: 25px;
+  z-index: 2;
+}
+
+
+.heading-tabs-container {
+  display: inline;
+}
+
+.heading-lead-container {
+  padding-left: 15px;
+  text-align: center;
+  display: inline-block;
+}
+
+.header-info-tabs{
+  padding-left: 15px;
+  display: inline-block;
+  text-align: right;
+}
+
