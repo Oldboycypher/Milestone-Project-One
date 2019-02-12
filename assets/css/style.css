@@ -12,13 +12,14 @@ header {
 
 .menuitem {
     background-color: #676767;
+    color: #ffffff;
 }
 
 .trade {
     color: #800000;
 }
 
-.mate {
+.safe {
     color: #00ff00;
 }
 
@@ -29,15 +30,6 @@ header {
 
 footer {
   background-color: #676767;
-}
-
-/*--------------------text colors*/
-
-.menuitem{
-  color: #ffffff;
-}
-
-.footer {
   color: #ffffff;
 }
 
@@ -50,8 +42,12 @@ h4 {
     margin: 0;
 }
 
-/*----------------Overide Chrome defaults on Nav dropdown links*/
+.row {
+     margin-right: 0;
+    
+}
 
+/*----------------Overide Chrome defaults on Nav dropdown links*/
 
 a:focus,
 button:focus {
@@ -68,7 +64,8 @@ text-decoration:none !important;
   background: url("../images/bgcharts.png") no-repeat center center fixed;
   z-index: -1;
   width: 100%;
-  min-height:600px;
+  margin-left: 0;
+  min-height:250px;
   background-attachment: fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -76,12 +73,7 @@ text-decoration:none !important;
   background-size: cover;
 }
 
-/*--------------POSSIBLE CSS FOR DELETION general*/
-
-.section {
-  margin-left: 0;
-  margin-right: 0;
-}
+/*-------------------------------- general*/
 
 .section-text-area{
   background-color: transparent;
@@ -98,27 +90,6 @@ text-decoration:none !important;
   z-index: 2;
 }
 
-.heading-tabs-container {
-  display: inline;
-}
-
-.heading-lead-container {
-  padding-left: 15px;
-  text-align: center;
-  display: inline-block;
-}
-
-.header-info-tabs{
-  padding-left: 15px;
-  display: inline-block;
-  text-align: center;
-}
-
-.col-md-4{
-  min-width: 100px;
-  padding-bottom: 15px;
-}
-
 /*--------------------------------------Heading*/
 
 
@@ -126,12 +97,10 @@ text-decoration:none !important;
 box-shadow: 13px 13px 15px -2px rgba(0,0,0,0.35);
 }
 
-
 .brand-container {
     padding-bottom: 15px;
     text-decoration: none;
 }
-
 
 .brand {
     font-family: "Exo", sans-serif;
@@ -142,6 +111,20 @@ box-shadow: 13px 13px 15px -2px rgba(0,0,0,0.35);
     margin-right: 0;
     text-align: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #nav li {
     margin-bottom: 25px;
@@ -162,7 +145,7 @@ box-shadow: 13px 13px 15px -2px rgba(0,0,0,0.35);
 .menuitem a i {
     padding-top: 5px;
     display: block;
-    color: #fafafa;
+    color: #ffffff;
     font-size: 22px;
 }
 
@@ -177,8 +160,6 @@ box-shadow: 13px 13px 15px -2px rgba(0,0,0,0.35);
     letter-spacing: 2px;
 }
 
-
-
 /*--------------------------------------Links dropdown menu*/
 
 .menuitem-text {
@@ -190,24 +171,24 @@ button {
     color: #ffffff;
     text-transform: uppercase;
     cursor: pointer;
-    padding-bottom: 25px;
     margin: -1px;
 }
 
 
 .btn {
-    padding: 0;
+   padding: 0;  
 }
 
 .dropdown-menu{
     list-style: none;
     border: transparent;
     margin: 0;
-    padding-right: 5px;
     padding-bottom: 0;
+    padding-top: 0;
     position: absolute;
-    width: 120px;
+    width: 100px;
     background-color: #676767;
+    color: #ffffff;
     box-shadow: 13px 13px 15px -2px rgba(0,0,0,0.35);
     transform: translateY(0);
     transition: transform 1s ease-in-out;
@@ -217,8 +198,11 @@ button {
     margin-bottom: 0;
 }
 
+/*------------NOT WORKING? REDO OR DELETE Links dropdown menu*/
+
+
 .fa-download:hover {
-  color: #1e90ff;
+    color: #1e90ff;
     transition-property: color;
     transition-duration: .6s;
     transition-timing-function: ease-in-out;
@@ -237,3 +221,5 @@ li button span:hover {
     transition-duration: .6s;
     transition-timing-function: ease-in-out;
 }
+
+/*--------------------------------------*/
