@@ -1,40 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto100,200,300,400,500,600,700,|Exo:100,200,300,400,500,600,700');
 
 
-/*--------------------background images*/
-
-.header-logo {
-    background: url("../images/bgcharts.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    display: block;
+/*--------------------------------------Colors*/
+header {
+    background-color: #676767;
 }
 
-.bgcharts { 
-  background: url("../images/bgcharts.png") no-repeat center center fixed;
-  opacity: 0.8;
-  width: 100%;
-  min-height:600px;
-  background-attachment: fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+.bg-color-name-title {
+    background-color: #676767;
 }
 
-/*--------------------background colors*/
+.menuitem {
+    background-color: #676767;
+}
 
+.trade {
+    color: #800000;
+}
 
+.mate {
+    color: #00ff00;
+}
 
-.header {
-  background-color: #708090
+.trademark {
+    color: #000;
+    font-size: 45%;
 }
 
 footer {
-  background-color: #708090;
+  background-color: #676767;
 }
 
 /*--------------------text colors*/
@@ -47,12 +41,42 @@ footer {
   color: #ffffff;
 }
 
+/*------------------------------Special Paddings/margins/text*/
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+/*----------------Overide Chrome defaults on Nav dropdown links*/
 
 
-/*--------------------general*/
+a:focus,
+button:focus {
+outline: none !important;
+}
 
+a:-webkit-any-link{
+text-decoration:none !important;
+}
 
+/*--------------------background images*/
 
+.bgcharts { 
+  background: url("../images/bgcharts.png") no-repeat center center fixed;
+  z-index: -1;
+  width: 100%;
+  min-height:600px;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/*--------------POSSIBLE CSS FOR DELETION general*/
 
 .section {
   margin-left: 0;
@@ -60,35 +84,19 @@ footer {
 }
 
 .section-text-area{
-  background-color: #708090;
-  opacity: 1.0;
+  background-color: transparent;
+  z-index: 1;
   color: #ffffff;
 }
 
 .footer {
   height: 70px;
   margin: 0;
-  padding-left: 15px;
   color: #ffffff;
-  position: static;
+  position: relative;
   width: 100%;
-  z-index: 3;
-}
-
-h1,
-h2,
-h3 {
-  margin: 0;
-}
-
-.header {
-  width: 100%;
-  position: fixed;
-  padding-top: 15px;
-  padding-left: 25px;
   z-index: 2;
 }
-
 
 .heading-tabs-container {
   display: inline;
@@ -103,7 +111,7 @@ h3 {
 .header-info-tabs{
   padding-left: 15px;
   display: inline-block;
-  text-align: center right;
+  text-align: center;
 }
 
 .col-md-4{
@@ -111,3 +119,121 @@ h3 {
   padding-bottom: 15px;
 }
 
+/*--------------------------------------Heading*/
+
+
+.header{
+box-shadow: 13px 13px 15px -2px rgba(0,0,0,0.35);
+}
+
+
+.brand-container {
+    padding-bottom: 15px;
+    text-decoration: none;
+}
+
+
+.brand {
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    margin-top: 15px;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+}
+
+#nav li {
+    margin-bottom: 25px;
+}
+
+.menuitem {
+    height: 60px;
+    text-align: center;
+    margin-bottom:  -1px ;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.menuitem a i {
+    padding-top: 5px;
+    display: block;
+    color: #fafafa;
+    font-size: 22px;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+
+
+/*--------------------------------------Links dropdown menu*/
+
+.menuitem-text {
+    padding-top: 25px;
+}
+
+button {
+    background-color: #676767;
+    color: #ffffff;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding-bottom: 25px;
+    margin: -1px;
+}
+
+
+.btn {
+    padding: 0;
+}
+
+.dropdown-menu{
+    list-style: none;
+    border: transparent;
+    margin: 0;
+    padding-right: 5px;
+    padding-bottom: 0;
+    position: absolute;
+    width: 120px;
+    background-color: #676767;
+    box-shadow: 13px 13px 15px -2px rgba(0,0,0,0.35);
+    transform: translateY(0);
+    transition: transform 1s ease-in-out;
+}
+
+#nav li ul li {
+    margin-bottom: 0;
+}
+
+.fa-download:hover {
+  color: #1e90ff;
+    transition-property: color;
+    transition-duration: .6s;
+    transition-timing-function: ease-in-out;
+}
+
+li a span:hover {
+    color: #1e90ff;
+    transition-property: color;
+    transition-duration: .6s;
+    transition-timing-function: ease-in-out;
+}
+
+li button span:hover {
+    color: #1e90ff;
+    transition-property: color;
+    transition-duration: .6s;
+    transition-timing-function: ease-in-out;
+}
