@@ -74,7 +74,11 @@ h4 {
 }
 
 .row {
-     margin-right: 0 auto;
+     margin-right: 0;
+}
+
+.course-excerpt{
+    padding-top: 3px;
 }
 
 /*----------------Overide Chrome defaults on Nav dropdown links*/
@@ -95,7 +99,7 @@ text-decoration:none !important;
   z-index: -1;
   width: 100%;
   margin: 0 auto;
-  min-height:250px;
+  min-height:450px;
   background-attachment: fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -201,9 +205,6 @@ button {
 }
 
 
-
-
-
 /*-----------------------------------------------Section*/
 
 .section-container {
@@ -211,24 +212,24 @@ button {
   color: #ffffff;
   text-align: center;
   padding-left: 0;
+  padding-right: 0;
   z-index: 1;
 }
-
 
 
 /*--------------------------------------Footer*/
 
 .footer {
   position: fixed; 
-  display: inline;
-  max-height: 70px;
+  display: inline-block;
+  max-height: 130px;
   width: 100%;
   left: 0;
   bottom: 0;
   margin: 0;
   text-align: center;
-   z-index: 2;
-   box-shadow: 13px 13px 15px -2px rgba(0,0,0,0.35);
+  z-index: 2;
+  box-shadow: 13px 13px 15px -2px rgba(0,0,0,0.35);
 }
 
 .social-links {
@@ -247,31 +248,41 @@ button {
 .fa-twitter,
 .fa-linkedin,
 .fa-youtube  {
-    height: 40px;
-    width: 40px;
+    height: 35px;
+    width: 35px;
     border-radius: 50%;
 }
 
 .social-links li a i:hover {
   background:  #ffffff;
+  color: black;
+  font-size: 18px;
 }
 
 
-/*--------REMINDER TO MOD AND INCORPORATE------------------------------*/
-
-footer .cv-pdf i {
-    color: #fafafa;
-    text-align: center;
-    font-size: 18px;
-    padding-left: 5px;
-    
+#menu-toggle {
+    margin-top: 50px;
+    padding: 8px;
+    border: limegreen;
+    border-radius: 5px;
+    background: black;
+    cursor: pointer;
 }
 
-footer .cv-pdf i:hover {
-    color: #e84610;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+#menu-toggle.expanded {
+    border-bottom: 10px solid black;
+    border-radius: 5px;
 }
+
+#menu-toggle > div {
+    width: 22px;
+    height: 2px;
+    background: white;
+}
+
+#menu-toggle > div + div {
+    margin-top: 5px;
+}
+
+
 
