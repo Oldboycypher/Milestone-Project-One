@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto100,200,300,400,500,600,700,|Exo:100,200,300,400,500,600,700');
 
 
-/*--------------------------------------Colors*/
+/*--------------------------------------Colors/Transitions*/
 header {
     background-color: #676767;
 }
@@ -28,8 +28,6 @@ header {
     font-size: 45%;
 }
 
-
-
 .fa-download:hover {
     color: #1e90ff;
     transition-property: color;
@@ -51,18 +49,27 @@ li button span:hover {
     transition-timing-function: ease-in-out;
 }
 
-
+footer button :hover {
+    background-color: transparent;
+    color: #1e90ff;
+    transition-property: color;
+    transition-duration: .6s;
+    transition-timing-function: ease-in-out;
+}
 
 footer {
   background-color: #676767;
   color: #ffffff;
 }
 
-.fa-facebook, 
-.fa-twitter,
-.fa-linkedin,
-.fa-youtube  {
-    background-color: #c0c0c0;
+.dropdown-menu li a {
+   color: #ffffff;
+}
+
+
+.contact-break {
+    width: 3px;
+    color: #1e90ff;
 }
 
 /*------------------------------Special Paddings/margins/text*/
@@ -82,6 +89,21 @@ h4 {
     padding-top: 3px;
 }
 
+.footer-list{
+   padding-top: 5px;
+   padding-bottom: 5px;  
+}
+
+.footer-contact {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.footer-social{
+    padding-top: 15px;
+    padding-bottom: 12px;
+}
+
 /*----------------Overide Chrome defaults on Nav dropdown links*/
 
 a:focus,
@@ -93,7 +115,7 @@ a:-webkit-any-link{
 text-decoration:none !important;
 }
 
-/*--------------------background images*/
+/*-------------------------------------background images*/
 
 .bgcharts { 
   background: url("../images/bgcharts.png") no-repeat center center fixed;
@@ -108,7 +130,7 @@ text-decoration:none !important;
   background-size: cover;
 }
 
-/*--------------------------------------Heading*/
+/*--------------------------------------Header*/
 
 
 header {
@@ -130,7 +152,6 @@ header {
     margin-right: 0 auto;
     text-align: center;
 }
-
 
 #nav li {
     margin-bottom: 25px;
@@ -178,11 +199,7 @@ button {
     text-transform: uppercase;
     cursor: pointer;
     margin: -1px;
-}
-
-
-.btn {
-   padding: 0;  
+    padding: 0; 
 }
 
 .dropdown-menu {
@@ -192,9 +209,9 @@ button {
     padding-bottom: 0;
     padding-top: 0;
     position: absolute;
-    width: 100px;
+    width: 90px;
     background-color: #676767;
-    color: #ffffff;
+    font: #ffffff;
     box-shadow: 13px 13px 15px -2px rgba(0,0,0,0.35);
 }
 
@@ -224,7 +241,7 @@ button {
 
 .footer {
   position: fixed; 
-  display: inline-block;
+  display: inline-table;
   max-height: 130px;
   width: 100%;
   left: 0;
@@ -235,12 +252,38 @@ button {
   box-shadow: 13px 13px 15px -2px rgba(0,0,0,0.35);
 }
 
+.btn-default {
+    border-color: transparent;
+}
+
+.btn {
+    touch-action: none;
+}
+
+.dropdown-menu {
+    list-style: none;
+    border: none;
+    margin: 0 auto;
+    padding-bottom: 0;
+    padding-top: 0;
+    position: absolute;
+    width: 90px;
+    background-color: #676767;
+    box-shadow: 13px 13px 15px -2px rgba(0,0,0,0.35);
+}
+
+
+.footer-brand {
+  font-family: "Exo", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;  
+}
+
 .social-links {
     border-radius: 50%;
     padding: 0;
     display: inline;
-    color: #ffffff;
-    background-color: #676767;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -251,39 +294,21 @@ button {
 .fa-twitter,
 .fa-linkedin,
 .fa-youtube  {
-    height: 35px;
-    width: 35px;
+    height: 40px;
+    width: 40px;
     border-radius: 50%;
+    padding-top: 14px;
+    padding-left: 5px;
+}
+
+.social-links li a i{
+  background:  #ffffff;
+  color: black;  
 }
 
 .social-links li a i:hover {
-  background:  #ffffff;
-  color: black;
-  font-size: 18px;
+  background: transparent ;
+  color: #1e90ff;
+  font-size: 36px;
 }
-
-
-#menu-toggle {
-    margin-top: 50px;
-    padding: 8px;
-    border: transparent;
-    cursor: pointer;
-}
-
-#menu-toggle.expanded {
-    border-bottom: 10px solid black;
-    border-radius: 5px;
-}
-
-#menu-toggle > div {
-    width: 22px;
-    height: 2px;
-    background: white;
-}
-
-#menu-toggle > div + div {
-    margin-top: 5px;
-}
-
-
 
