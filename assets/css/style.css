@@ -42,15 +42,8 @@ li a span:hover {
     transition-timing-function: ease-in-out;
 }
 
-li button span:hover {
-    color: #1e90ff;
-    transition-property: color;
-    transition-duration: .6s;
-    transition-timing-function: ease-in-out;
-}
 
-footer button :hover {
-    background-color: transparent;
+ button span:hover {
     color: #1e90ff;
     transition-property: color;
     transition-duration: .6s;
@@ -66,6 +59,10 @@ footer {
    color: #ffffff;
 }
 
+.dropdown-menu li a:hover {
+   background-color: #676767;
+   color: #1e90ff;
+}
 
 .contact-break {
     width: 3px;
@@ -89,6 +86,14 @@ h4 {
     padding-top: 3px;
 }
 
+.btn {
+    padding: 0;
+}
+
+footer {
+    padding-top: 10px;
+}
+
 .footer-list{
    padding-top: 5px;
    padding-bottom: 5px;  
@@ -103,6 +108,7 @@ h4 {
     padding-top: 15px;
     padding-bottom: 12px;
 }
+
 
 /*----------------Overide Chrome defaults on Nav dropdown links*/
 
@@ -157,6 +163,10 @@ header {
     margin-bottom: 25px;
 }
 
+.menuitem-text {
+    padding-top: 25px;
+}
+
 .menuitem {
     height: 60px;
     text-align: center;
@@ -189,10 +199,6 @@ header {
 
 /*--------------------------------------Links dropdown menu*/
 
-.menuitem-text {
-    padding-top: 25px;
-}
-
 button {
     background-color: #676767;
     color: #ffffff;
@@ -202,23 +208,23 @@ button {
     padding: 0; 
 }
 
-.dropdown-menu {
+.dropdown-menu  {
+    display: none;
+    position:absolute ;
     list-style: none;
     border: none;
     margin: 0 auto;
     padding-bottom: 0;
     padding-top: 0;
-    position: absolute;
     width: 90px;
+    line-height: 25px;
     background-color: #676767;
-    font: #ffffff;
     box-shadow: 13px 13px 15px -2px rgba(0,0,0,0.35);
 }
 
-.links-dropdown:hover .dropdown-menu{
+  .dropdown:hover .dropdown-menu{
     display: block;
 }
-
 
 #nav li ul li {
     margin-bottom: 0;
@@ -252,32 +258,15 @@ button {
   box-shadow: 13px 13px 15px -2px rgba(0,0,0,0.35);
 }
 
-.btn-default {
-    border-color: transparent;
-}
-
-.btn {
-    touch-action: none;
-}
-
-.dropdown-menu {
-    list-style: none;
-    border: none;
-    margin: 0 auto;
-    padding-bottom: 0;
-    padding-top: 0;
-    position: absolute;
-    width: 90px;
-    background-color: #676767;
-    box-shadow: 13px 13px 15px -2px rgba(0,0,0,0.35);
-}
-
-
 .footer-brand {
   font-family: "Exo", sans-serif;
     font-weight: 400;
     font-size: 18px;
     text-align: center;  
+}
+
+.dropup:hover .dropup-content {
+  display: block;
 }
 
 .social-links {
@@ -311,4 +300,24 @@ button {
   color: #1e90ff;
   font-size: 36px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------Gradient shading idea for both nav bars*/
+
+background-image: linear-gradient(to bottom, #333, #4d4d4d); 
+
+
 
