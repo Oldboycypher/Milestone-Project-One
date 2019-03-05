@@ -124,7 +124,7 @@ text-decoration:none !important;
 /*-------------------------------------background images*/
 
 .bgcharts { 
-  background: url("../images/bgcharts.png") no-repeat center center fixed;
+  background: url("../images/bgcharts2.jpeg") no-repeat center center fixed;
   z-index: -1;
   width: 100%;
   margin: 0 auto;
@@ -208,7 +208,7 @@ button {
     padding: 0; 
 }
 
-.dropdown-menu  {
+.dropdown-menu {
     display: none;
     position:absolute ;
     list-style: none;
@@ -235,6 +235,7 @@ button {
 
 .section-container {
   background-color: transparent;
+  background-color: rgba(0,0,0,0.4);
   color: #ffffff;
   text-align: center;
   padding-left: 0;
@@ -242,6 +243,9 @@ button {
   z-index: 1;
 }
 
+.hookline {
+    font-size: 80px;
+}
 
 /*--------------------------------------Footer*/
 
