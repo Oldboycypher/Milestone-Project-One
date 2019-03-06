@@ -2,9 +2,12 @@
 
 
 /*--------------------------------------Colors/Transitions*/
-header {
+header,
+footer {
     background-color: #676767;
+    color: #ffffff;
 }
+
 
 .bg-color-name-title {
     background-color: #676767;
@@ -48,11 +51,6 @@ li a span:hover {
     transition-property: color;
     transition-duration: .6s;
     transition-timing-function: ease-in-out;
-}
-
-footer {
-  background-color: #676767;
-  color: #ffffff;
 }
 
 .dropdown-menu li a {
@@ -121,19 +119,26 @@ a:-webkit-any-link{
 text-decoration:none !important;
 }
 
-/*-------------------------------------background images*/
+/*-------------------------------------background images by section*/
+
+/*-------------------------------------home section*/
 
 .bgcharts { 
-  background: url("../images/bgcharts2.jpeg") no-repeat center center fixed;
+  background: url("../images/bgcharts.jpeg") no-repeat center center fixed;
   z-index: -1;
   width: 100%;
   margin: 0 auto;
-  min-height:450px;
+  height:100%;
   background-attachment: fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.home-images{
+    border-width: 5px;
+    border-color: white;
 }
 
 /*--------------------------------------Header*/
@@ -244,13 +249,13 @@ button {
 }
 
 .hookline {
-    font-size: 80px;
+    font-size: 50px;
 }
 
 /*--------------------------------------Footer*/
 
 .footer {
-  position: fixed; 
+  position: relative; 
   display: inline-table;
   max-height: 130px;
   width: 100%;
