@@ -136,10 +136,39 @@ text-decoration:none !important;
   background-size: cover;
 }
 
-.home-images{
-    border-width: 5px;
-    border-color: white;
+.image-border {
+    background-color: white;
+    padding: 10px;
 }
+
+/*-------------------------------------training section*/
+
+.training { 
+  background: url("../images/training.jpeg") no-repeat center center fixed;
+  z-index: -1;
+  width: 100%;
+  margin: 0 auto;
+  height:100%;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
+/*-------------------------------------bookings section*/
+
+
+/*-------------------------------------course excerpt section*/
+
+
+/*-------------------------------------contact section*/
+
+
+
+
 
 /*--------------------------------------Header*/
 
@@ -236,9 +265,9 @@ button {
 }
 
 
-/*-----------------------------------------------Section*/
+/*-----------------------------------------------Sections*/
 
-.section-container {
+.section-container-home {
   background-color: transparent;
   background-color: rgba(0,0,0,0.4);
   color: #ffffff;
@@ -250,6 +279,39 @@ button {
 
 .hookline {
     font-size: 50px;
+}
+
+.section-container-training {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
+}
+
+.bookings {
+    background-color: lightblue;
+}
+
+
+.section-container-legal-stuff,
+.section-container-contact,
+.section-container-course-excerpt,
+.section-container-bookings {
+    background-color: white;
+}
+
+.course-excerpt {
+    background-color: slategrey;
+}
+
+.contact {
+    background-color: lightgreen;
+}
+
+.legal-stuff {
+    background-color: orange;
 }
 
 /*--------------------------------------Footer*/
