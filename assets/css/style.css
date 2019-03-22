@@ -405,6 +405,11 @@ ul.checkmark li:after {
     text-align: center;
 }
 
+.video-container {
+    border: transparent;
+    content: center;
+}
+
 .contact {
     background-color: lightgreen;
     text-align: center;
