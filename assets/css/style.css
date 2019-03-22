@@ -156,6 +156,7 @@ text-decoration:none !important;
 
 .training { 
   background: url("../images/training.jpeg") no-repeat center center fixed;
+  background: white;
   z-index: -1;
   width: 100%;
   margin: 0 auto;
@@ -293,6 +294,7 @@ button {
 
 
 /*-----------------------------------------------Sections*/
+/*----------------------------------------Home*/
 
 .section-container-home {
   background-color: transparent;
@@ -318,16 +320,60 @@ button {
   position: relative;
   z-index: 10;
 }
-
+/*---------------------------------------Training*/
 .section-container-training {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.3);
+    background-color: white;
     color: white;
+    color: black;
     text-align: center;
     padding-left: 0;
     padding-right: 0;
     z-index: 1;
 }
 
+.three-vital-areas {
+    display: inline-block;
+}
+
+ul.checkmark li {
+  font-size: 22px; 
+  list-style-type: none; 
+  margin-bottom: 5px; 
+  padding: 0 5px 0 10px; 
+  position: relative; 
+}
+
+ul.checkmark li:before {
+  content: " "; 
+  display: block;
+  border: solid 16px blue;
+  border-radius: 16px; 
+  position: absolute; 
+  top: 35%; 
+  margin-top: -10px;
+}
+
+ul.checkmark li:after {
+  content: " ";
+  display: block;
+  width: 14px; 
+  height: 28px;
+  border: solid green;
+  border-width: 0 7px 7px 0; 
+  position: absolute;
+  left: 24px;
+  top: 20%;
+  margin-top: -4px;
+  -webkit-transform: rotate(40deg); 
+  -moz-transform: rotate(40deg);
+  -o-transform: rotate(40deg);
+  -ms-transform: rotate(40deg);
+  transform: rotate(40deg);
+}
+/*----------------------------------------Divider*/
+
+/*----------------------------------------Bookings*/
 .section-container-bookings {
     background-color: rgba(255, 255, 255, 0.2);
     text-align: center;
