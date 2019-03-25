@@ -146,7 +146,7 @@ text-decoration:none !important;
 .imgframe {
     background:white;
     padding:7px 7px 30px 7px;
-    border:2px solid black; 
+    border:1px solid black; 
     -webkit-transition: -webkit-transform .15s linear;
     -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.25);
     -moz-box-shadow: 0 3px 6px rgba(0,0,0,.25);
@@ -323,17 +323,14 @@ button {
 /*---------------------------------------Training*/
 .section-container-training {
     background-color: rgba(0, 0, 0, 0.3);
-    background-color: white;
+    background-color: transparent;
     color: white;
     color: black;
     text-align: center;
     padding-left: 0;
     padding-right: 0;
-    z-index: 1;
-}
-
-.three-vital-areas {
-    display: inline-block;
+    padding-bottom: 40px;
+    z-index: 2;
 }
 
 ul.checkmark li {
@@ -347,7 +344,7 @@ ul.checkmark li {
 ul.checkmark li:before {
   content: " "; 
   display: block;
-  border: solid 16px blue;
+  border: solid 16px #00ffff;
   border-radius: 16px; 
   position: absolute; 
   top: 35%; 
@@ -359,7 +356,7 @@ ul.checkmark li:after {
   display: block;
   width: 14px; 
   height: 28px;
-  border: solid green;
+  border: solid #228b22;
   border-width: 0 7px 7px 0; 
   position: absolute;
   left: 24px;
@@ -373,6 +370,16 @@ ul.checkmark li:after {
 }
 /*----------------------------------------Divider*/
 
+.section-divider {
+    padding-top: 25px;
+    background-color: #00ffff;
+    height: 160px;
+    width: 100%;
+    transform: skewY(-5deg);
+    transform-origin: top right;
+    z-index: 1;
+}
+
 /*----------------------------------------Bookings*/
 .section-container-bookings {
     background-color: rgba(255, 255, 255, 0.2);
@@ -381,10 +388,8 @@ ul.checkmark li:after {
 
 .jumbotron {
     background-color: transparent;
-    background-color: rgba(255, 255, 255, 0.4);
     text-align: center;
-    border: 2px solid;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 .close {
@@ -492,9 +497,9 @@ ul.checkmark li:after {
 
 
 
-/*-------Gradient shading idea for both nav bars*/
 
-background-image: linear-gradient(to bottom, #333, #4d4d4d); 
+
+
 
 
 
