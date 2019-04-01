@@ -367,34 +367,6 @@ button {
     z-index: 2;
 }
 
-.three-vital-areas{
-display: table-cell;
-}
-
-.TechA,
-.MoneyMan,
-.TradePsy {
-    padding-left:  10px;
-    padding-right: 10px;
-    height: 100%;
-}
-
-.TechA2,
-.MoneyMan2,
-.TradePsy2 {
-    padding-top: 10px;
-    padding-bottom: 7px;
-}
-
-.TechA div img,
-.MoneyMan div img,
-.TradePsy div img {
-   min-height: 120px;
-   min-width: 120px;
-}
-
-
-
 ul.checkmark li {
   font-size: 22px; 
   list-style-type: none; 
@@ -430,6 +402,34 @@ ul.checkmark li:after {
   -ms-transform: rotate(40deg);
   transform: rotate(40deg);
 }
+
+.three-vital-areas{
+display: table-cell;
+}
+
+.TechA,
+.MoneyMan,
+.TradePsy {
+    padding-left:  10px;
+    padding-right: 10px;
+    height: 100%;
+}
+
+.TechA2,
+.MoneyMan2,
+.TradePsy2 {
+    padding-top: 10px;
+    padding-bottom: 12px;
+}
+
+.TechA div img,
+.MoneyMan div img,
+.TradePsy div img {
+   min-height: 140px;
+   min-width: 140px;
+}
+
+
 /*----------------------------------------Divider*/
 
 .section-divider {
@@ -547,12 +547,7 @@ ul.checkmark li:after {
 
 
 
-
-
-
-
-
-
+/*----------------------------Media Queries*/
 
 
 
