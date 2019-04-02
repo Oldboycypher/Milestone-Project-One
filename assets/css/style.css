@@ -95,6 +95,12 @@ h6 {
     padding: 0;
 }
 
+
+#bookings button {
+    margin-top: 30px;
+}
+
+
 .section{
     padding-top: 25px;
     padding-bottom: 25px;
@@ -212,7 +218,7 @@ text-decoration:none !important;
 /*-------------------------------------bookings section*/
 
 .bookings { 
-  background: url("../images/booking.jpeg") no-repeat center center fixed;
+  background: url("../images/bookings.jpg") no-repeat center center fixed;
   z-index: -1;
   width: 100%;
   margin: 0 auto;
@@ -361,10 +367,7 @@ button {
 }
 /*---------------------------------------Training*/
 .section-container-training {
-    background-color: rgba(0, 0, 0, 0.3);
-    background-color: transparent;
-    color: white;
-    color: black;
+    background-color: rgba(255, 255, 255, 0.6);
     text-align: center;
     padding-left: 0;
     padding-right: 0;
@@ -458,6 +461,15 @@ ul.checkmark li:after {
     text-align: center;
     margin-top: 40px;
 }
+
+#bookings h3 {
+    font-weight: 900;
+}
+
+#bookings {
+    color: white; 
+}
+
 
 .close {
     font-size: 36px;
