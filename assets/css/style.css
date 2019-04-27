@@ -83,11 +83,30 @@ h6 {
     line-height: 24px
 }
 
+.hookline {
+    margin: 30px 10px 30px 10px;
+}
+
 .row {
      margin-right: 0;
      height: 85px;
 }
 
+.package-cost-121,
+.package-cost-group {
+    padding: 10px 10px 20px 10px;
+}
+
+.package-cost-121 div img,
+.package-cost-group div img {
+    border: groove 2px black;
+   min-height: 160px;
+   min-width: 140px;
+}
+
+.package-h3{
+    padding: 30px 10px;
+}
 
 .course-excerpt{
     padding-top: 3px;
@@ -199,7 +218,27 @@ text-decoration:none !important;
   background-size: cover;
 }
 
+.package-cost-121 div img {
+  background: url("../images/package-121.jpg") no-repeat center center fixed;
+  width: 100%;
+  height:100%;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
+.package-cost-group div img {
+  background: url("../images/package-group.jpg") no-repeat center center fixed;
+  width: 100%;
+  height:100%;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
 
 /*-------------------------------------bookings section*/
@@ -519,7 +558,7 @@ display: table-cell;
 /*--------------------------------------Footer*/
 
 .footer {
-  position: relative; 
+  position: fixed; 
   display: inline-table;
   max-height: 130px;
   width: 100%;
