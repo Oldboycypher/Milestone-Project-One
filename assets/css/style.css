@@ -85,7 +85,9 @@ h6 {
 
 .row {
      margin-right: 0;
+     height: 85px;
 }
+
 
 .course-excerpt{
     padding-top: 3px;
@@ -93,18 +95,6 @@ h6 {
 
 .btn {
     padding: 0;
-}
-
-
-#bookings button {
-    margin-top: 30px;
-}
-
-
-.section{
-    padding-top: 25px;
-    padding-bottom: 25px;
-    
 }
 
 footer {
@@ -135,6 +125,7 @@ text-decoration:none !important;
 }
 
 /*-------------------------------------background plus inserted images by section*/
+
 /*-------------------------------------home section*/
 
 .bgcharts { 
@@ -260,7 +251,29 @@ header {
     margin-left: 0 auto;
     margin-right: 0 auto;
     text-align: center;
+    height: 70px;
 }
+
+
+/*----------------------------------Nav toggle sml screen dropdown menu*/
+
+
+#toggle-button {
+    position: relative;
+    float: right;
+    border-color: transparent;
+    transform: rotate(-45deg);
+    top: -90px;
+    z-index: 1001;
+}
+
+.icon-bar {
+    background-color: white;
+    
+}
+
+
+/*--------------------------------------Header continued*/
 
 #nav li {
     margin-bottom: 25px;
@@ -363,7 +376,10 @@ button {
 }
 /*---------------------------------------Training*/
 .section-container-training {
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(0, 0, 0, 0.3);
+    background-color: transparent;
+    color: white;
+    color: black;
     text-align: center;
     padding-left: 0;
     padding-right: 0;
@@ -376,7 +392,7 @@ ul.checkmark li {
   list-style-type: none; 
   margin-bottom: 5px; 
   padding: 0 5px 0 10px; 
-  position: relative; 
+  position: relative;
 }
 
 ul.checkmark li:before {
@@ -407,8 +423,8 @@ ul.checkmark li:after {
   transform: rotate(40deg);
 }
 
-.three-vital-areas {
-    display: inline-block;
+.three-vital-areas{
+display: table-cell;
 }
 
 .TechA,
@@ -562,12 +578,29 @@ ul.checkmark li:after {
 
 /*----------------------------Media Queries*/
 
+    
 
 @media screen and (max-width:992px) {
-.checkmark{
+  .nav-links .list-container {
+      display: none ;
+    }
+ .checkmark{
      display: none ;
+}
+  .brand {
+   float: left ;
+   padding-left: 20px;
  }
+  #toggle-button button {
+        visibility: visible;
+    }
 } 
+
+@media screen and (max-width:420px) {
+    .brand span {
+        font-size: 70%;
+    }
+ }
 
 
 
