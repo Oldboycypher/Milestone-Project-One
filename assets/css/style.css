@@ -45,7 +45,6 @@ li a span:hover {
     transition-timing-function: ease-in-out;
 }
 
-
  button span:hover {
     color: #1e90ff;
     transition-property: color;
@@ -330,13 +329,7 @@ text-decoration:none !important;
   background-size: cover;
 }
 
-
-
-
-
-
 /*--------------------------------------Header*/
-
 
 header {
     z-index: 1000;
@@ -359,7 +352,6 @@ header {
     height: 70px;
 }
 
-
 /*----------------------------------Nav toggle sml screen dropdown menu*/
 
 
@@ -367,17 +359,20 @@ header {
     position: relative;
     float: right;
     border-color: transparent;
-    transform: rotate(-45deg);
-    top: -90px;
+    top: -85px;
     z-index: 1001;
 }
+
+
 
 .icon-bar {
     background-color: white;
     
 }
 
-
+.links-header {
+    color: black;
+}
 /*--------------------------------------Header continued*/
 
 #nav li {
@@ -560,7 +555,7 @@ display: inline-block;
 .section-divider {
     padding-top: 25px;
     background-color: #00ffff;
-    height: 160px;
+    height: 140px;
     width: 100%;
     transform: skewY(-5deg);
     transform-origin: top right;
@@ -695,26 +690,27 @@ footer button {
     
 
 @media screen and (max-width:992px) {
-  .nav-links .list-container {
-      display: none ;
+    .nav-links .list-container {
+        display: none;
     }
- .checkmark{
-     display: none ;
-}
-  .brand {
-   float: left ;
-   padding-left: 20px;
- }
-  #toggle-button button {
+    .checkmark {
+        display: none;
+    }
+    .brand {
+        float: left;
+        padding-left: 20px;
+    }
+    #toggle-button button {
+        display: inline-block;
         visibility: visible;
     }
-} 
+}
 
 @media screen and (max-width:420px) {
     .brand span {
         font-size: 70%;
     }
- }
+}
 
 
 
