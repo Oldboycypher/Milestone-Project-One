@@ -103,7 +103,7 @@ h6 {
 }
 
 .training {
-    padding: 30px 10px 0px 10px;
+    padding: 80px 10px 50px 10px;
 }
 
 .package-cost-121,
@@ -123,11 +123,7 @@ h6 {
 }
 
 #bookings h3 {
-    padding: 30px 10px;
-}
-
-.course-excerpt{
-   
+    padding: 50px 10px;
 }
 
 .course-excerpt-section {
@@ -142,12 +138,11 @@ h6 {
 
 #contact {
     min-height: 450px;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
-
 #contact p {
-    padding-top: 80px;
+    margin: 80px 0 40px;
 }
 
 .hookline-contact {
@@ -370,6 +365,11 @@ header {
     background-color: white;
 }
 
+#navbar-toggle-list {
+    margin-left: -120px;
+    margin-top: -18px;
+}
+
 .links-header {
     color: black;
 }
@@ -425,19 +425,19 @@ button {
     padding: 0; 
 }
 
-#navbar-toggle-list {
-    margin-left: -120px;
-    margin-top: -18px;
+.links-dropdown {
+    margin-left: -40px;
 }
 
 .dropdown-menu {
     display: none;
     position: absolute;
     list-style: none;
-    border: none;
     margin: 0;
+    border: none;
     padding-bottom: 0;
     padding-top: 0;
+    text-align: center;
     width: 60px;
     line-height: 25px;
     background-color: #676767;
@@ -452,21 +452,19 @@ button {
     margin-bottom: 0;
 }
 
-
 /*-----------------------------------------------Sections*/
 /*----------------------------------------Home*/
 
 .section-container-home {
-  background-color: transparent;
-  background-color: rgba(0,0,0,0.4);
-  color: #ffffff;
-  text-align: center;
-  padding-left: 0;
-  padding-right: 0;
-  margin-top: 85px;
-  z-index: 1;
+    background-color: transparent;
+    background-color: rgba(0,0,0,0.4);
+    color: #ffffff;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 120px;
+    z-index: 1;
 }
-
 .hookline {
     font-size: 50px;
 }
@@ -488,9 +486,7 @@ button {
     color: white;
     color: black;
     text-align: center;
-    padding-left: 0;
-    padding-right: 0;
-    padding-bottom: 40px;
+    padding: 40px 0 40px 0;
     z-index: 2;
 }
 
@@ -554,6 +550,7 @@ display: inline-block;
 .TradePsy div img {
    min-height: 140px;
    min-width: 140px;
+   margin-bottom: 40px;
 }
 
 
@@ -578,7 +575,8 @@ display: inline-block;
 .jumbotron {
     background-color: transparent;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 90px;
+    margin-bottom: 70px;
 }
 
 #bookings h3 {
@@ -597,19 +595,18 @@ display: inline-block;
     color: red;
 }
 
+/*----------------------------------------Course Excerpt*/
+
 .course-excerpt-section {
     text-align: center;
+    padding-top: 140px;
+    padding-bottom: 100px;
 }
 
 .video-container {
     border: transparent;
     content: center;
 }
-
-/*----------------------------------------Course Excerpt*/
-
-
-
 
 /*----------------------------------------Contact*/
 

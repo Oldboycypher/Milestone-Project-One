@@ -1,5 +1,5 @@
 
-   #Trade Safe pty Milestone Project
+   # Trade Safe pty Milestone Project
    
-   ##Welcome to my Trade Safe website project.
+   ## Welcome to my Trade Safe website project.
    
