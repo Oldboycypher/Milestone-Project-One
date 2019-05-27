@@ -113,7 +113,7 @@ h6 {
 
 .package-cost-121 div img,
 .package-cost-group div img {
-    border: groove 2px black;
+   border: groove 2px black;
    min-height: 160px;
    min-width: 140px;
 }
@@ -155,21 +155,10 @@ h6 {
     border-radius: 15px;
 }
 
-footer {
+.footer-social {
     padding-top: 10px;
+    padding-bottom: 15px;
 }
-
-.footer-list,
-.footer-contact{
-   padding-top: 5px;
-   padding-bottom: 5px;  
-}
-
-.footer-social{
-    padding-top: 15px;
-    padding-bottom: 12px;
-}
-
 
 /*----------------Overide Chrome defaults on Nav dropdown links*/
 
@@ -406,12 +395,12 @@ header {
 .menuitem span {
     display: block;
     width: 100%;
-    padding-top: 5px;
     text-align: center;
     text-transform: uppercase;
     font-size: 16px;
     font-weight: 400;
     letter-spacing: 2px;
+    padding: 5px 0 0 0;
 }
 
 /*--------------------------------------Links dropdown menu*/
@@ -528,8 +517,8 @@ display: inline-block;
 .TechA,
 .MoneyMan,
 .TradePsy {
-    padding-left:  10px;
-    padding-right: 10px;
+    padding-left:  20px;
+    padding-right: 20px;
     height: 100%;
 }
 
@@ -610,11 +599,14 @@ display: inline-block;
 
 /*----------------------------------------Legal Stuff.html*/
 
-#copyright,
 #cookie-policy,
 #gdpr,
 #advise-disclaimer {
     padding: 120px 0 120px 0;
+}
+
+#copyright {
+   padding: 205px 0 120px 0; 
 }
 
 #copyright,
@@ -624,8 +616,7 @@ display: inline-block;
 }
 
 #credits {
-    padding: 120px 0 160px 0;
-    margin-bottom: 90px;
+    padding: 120px 0 185px 0;
 }
 
 
@@ -734,6 +725,7 @@ footer button {
 @media screen and (max-width:420px) {
     .brand span {
         font-size: 70%;
+        padding-bottom: 15px;
     }
     #course-excerpt iframe {
         width: 185px;
