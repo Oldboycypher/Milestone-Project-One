@@ -571,11 +571,20 @@ display: inline-block;
     color: white; 
 }
 
-
-.close {
+.close-bookings {
     font-size: 36px;
     font-weight: 800;
     color: red;
+    float: right;
+    background-color: transparent;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    border-color: transparent;
+    opacity: 0.7;
+}
+
+.booking-submit-button {
+    margin: 10px;
 }
 
 /*----------------------------------------Course Excerpt*/
@@ -595,6 +604,27 @@ display: inline-block;
 
 .contact {
     text-align: center;
+}
+
+.modal-header2 {
+    padding: 15px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.close-contact {
+    font-size: 36px;
+    font-weight: 800;
+    color: red;
+    float: right;
+    background-color: transparent;
+    padding-right: 10px;
+    border-color: transparent;
+    opacity: 0.7;
+    transform: translateY(-35px);
+}
+
+.contact-submit-button {
+    margin: 10px;
 }
 
 /*----------------------------------------Legal Stuff.html*/
