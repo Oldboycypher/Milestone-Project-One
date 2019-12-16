@@ -432,6 +432,11 @@ header {
     padding: 5px 0 0 0;
 }
 
+#nav li #course-excerpt {
+    margin: 0;
+    padding: 0;
+}
+
 /*--------------------------------------Links dropdown menu*/
 
 button {
@@ -689,7 +694,8 @@ footer button {
     position:absolute;
     list-style: none;
     border: none;
-    margin: 0;
+    margin-left: 33%;
+    margin-bottom: -5px;
     padding: 0 0 -10px 30px;
     text-align: left;
     width: auto;
