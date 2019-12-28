@@ -213,7 +213,7 @@ text-decoration:none !important;
 
 .TechA div img {
   background: url("../images/technical.png") no-repeat center center fixed; 
-  width: 100%;
+  width: 33%;
   height:100%;
   background-attachment: scroll;
   -webkit-background-size: cover;
@@ -224,7 +224,7 @@ text-decoration:none !important;
 
 .MoneyMan div img {
   background: url("../images/moneyman.jpg") no-repeat center center fixed; 
-  width: 100%;
+  width: 33%;
   height:100%;
   background-attachment: scroll;
   -webkit-background-size: cover;
@@ -235,7 +235,7 @@ text-decoration:none !important;
 
 .TradePsy div img {
   background: url("../images/trading-psychology.png") no-repeat center center fixed; 
-  width: 100%;
+  width: 33%;
   height:100%;
   background-attachment: scroll;
   -webkit-background-size: cover;
@@ -246,7 +246,7 @@ text-decoration:none !important;
 
 .package-cost-121 div img {
   background: url("../images/package-121.jpg") no-repeat center center fixed;
-  width: 100%;
+  width: 33%;
   height:100%;
   background-attachment: scroll;
   -webkit-background-size: cover;
@@ -257,7 +257,7 @@ text-decoration:none !important;
 
 .package-cost-group div img {
   background: url("../images/package-group.jpg") no-repeat center center fixed;
-  width: 100%;
+  width: 33%;
   height:100%;
   background-attachment: scroll;
   -webkit-background-size: cover;
@@ -678,9 +678,8 @@ footer button {
     position:absolute;
     list-style: none;
     border: none;
-    margin-left: 33%;
-    margin-bottom: -5px;
-    padding: 0 0 0px 30px;
+    left: 10%;
+    margin-bottom: -12px;
     text-align: left;
     width: auto;
     line-height: 25px;
@@ -691,6 +690,15 @@ footer button {
 
 .dropup:hover .dropup-content {
   display: block;
+}
+
+.dropup {
+    margin-bottom: -12px;
+    margin-left: 26%;
+    margin-right: 40%;
+    width: auto;
+    min-width: fit-content;
+    position: relative;
 }
 
 .social-links {
