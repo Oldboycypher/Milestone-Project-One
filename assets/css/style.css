@@ -470,8 +470,8 @@ button {
     margin-bottom:0;
 }
 
-/*-----------------------------------------------Sections*/
-/*----------------------------------------Home*/
+/*-----------------------------------------------Sections by Title*/
+/*----------------------------------------Home section*/
 
 .section-container-home {
     background-color: transparent;
@@ -497,7 +497,7 @@ button {
   position: relative;
   z-index: 10;
 }
-/*---------------------------------------Training*/
+/*---------------------------------------Training section*/
 .section-container-training {
     background-color: rgba(0, 0, 0, 0.3);
     background-color: transparent;
@@ -572,7 +572,7 @@ display: inline-block;
 }
 
 
-/*----------------------------------------Divider*/
+/*----------------------------------------Section Divider*/
 
 .section-divider {
     padding-top: 25px;
@@ -584,7 +584,7 @@ display: inline-block;
     z-index: 1;
 }
 
-/*----------------------------------------Bookings*/
+/*----------------------------------------Bookings section*/
 .section-container-bookings {
     text-align: center;
 }
@@ -621,13 +621,13 @@ display: inline-block;
     margin: 10px;
 }
 
-/*----------------------------------------Course Excerpt*/
+/*----------------------------------------Course Excerpt section*/
 
 .video-container {
     border: transparent;
 }
 
-/*----------------------------------------Contact*/
+/*----------------------------------------Contact section*/
 
 .contact {
     text-align: center;
@@ -758,7 +758,7 @@ footer button {
 
 
 
-/*----------------------------Media Queries*/
+/*----------------------------Media Queries for index.html*/
 
     
 
@@ -779,6 +779,13 @@ footer button {
     }
 }
 
+@media screen and (min-width:768px) {
+    #course-excerpt iframe {
+        width: 450px;
+        height: 350px;
+    }
+}
+
 @media screen and (max-width:420px) {
     .brand span {
         font-size: 70%;
@@ -790,15 +797,35 @@ footer button {
     }
 }
 
-@media screen and (min-width:768px) {
-    #course-excerpt iframe {
-        width: 450px;
-        height: 350px;
+/*--------To remove poor scaled background images and support iOS and devices less than 420px*/
+
+@media screen and (max-width:420px) {
+    .bgcharts {
+         background: transparent;
     }
-}
+    #home {
+        background-color: #1e90ff;}
+    }
+    .section-container-home {
+        background-color: rgba(0,0,0,0);
+    }
 
-
-
+    @media screen and (max-width:420px) {
+    .bookings {
+        background: transparent;
+    }
+    #bookings {
+        background-color:#d6932e;
+    }
+    #bookings .btn {
+        background-color: #00ff00;
+        color: #676767;
+    }
+    .course-excerpt-section{
+        background: transparent;
+    }
+    }    
+   
 
 
 
