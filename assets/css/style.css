@@ -576,7 +576,7 @@ display: inline-block;
 
 .section-divider {
     padding-top: 25px;
-    background-color: #00ffff;
+    background-color: #1e90ff;
     height: 140px;
     width: 100%;
     transform: skewY(-5deg);
@@ -675,6 +675,10 @@ footer button {
     padding-top: 5px;
 }
 
+.nav {
+    padding-left: inherit;
+}    
+
 
 .dropup-menu {
     display: none;
@@ -758,7 +762,7 @@ footer button {
 
 
 
-/*----------------------------Media Queries for index.html*/
+/*----------------------------@media Queries for index.html*/
 
     
 
@@ -797,20 +801,18 @@ footer button {
     }
 }
 
-/*--------To remove poor scaled background images and support iOS and devices less than 420px*/
+/*--------@media to remove poor scaled background images and support iOS and devices less than 420px*/
 
 @media screen and (max-width:420px) {
     .bgcharts {
          background: transparent;
     }
     #home {
-        background-color: #1e90ff;}
+        background-color: #1e90ff;
     }
     .section-container-home {
         background-color: rgba(0,0,0,0);
     }
-
-    @media screen and (max-width:420px) {
     .bookings {
         background: transparent;
     }
@@ -821,13 +823,20 @@ footer button {
         background-color: #00ff00;
         color: #676767;
     }
-    .course-excerpt-section{
+    .course-excerpt-section {
         background: transparent;
     }
-    }    
+    } 
+
+    /*------------@media changes to section divider for large screens over 1440px-----*/   
    
 
-
+@media screen and {min-width: 1440px;}
+    .section-divider {
+        height: 180px;
+        transform: skewY(-4deg);
+    }
+}
 
 
 
