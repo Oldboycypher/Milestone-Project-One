@@ -831,7 +831,7 @@ footer button {
     /*------------@media changes to section divider for large screens over 1440px-----*/   
    
 
-@media screen and {min-width: 1440px;}
+@media screen and (min-width: 1440px) {
     .section-divider {
         height: 180px;
         transform: skewY(-4deg);
