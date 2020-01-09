@@ -499,16 +499,15 @@ button {
 }
 /*---------------------------------------Training section*/
 .section-container-training {
-    background-color: rgba(0, 0, 0, 0.3);
     background-color: transparent;
-    color: white;
     color: black;
     text-align: center;
     padding: 40px 0 40px 0;
     z-index: 2;
 }
 
-ul.checkmark li {
+ul.checkmark li,
+ul.checkmark-removed-small-screen li {
   font-size: 22px; 
   list-style-type: none; 
   margin-bottom: 5px; 
@@ -772,7 +771,7 @@ footer button {
     }
     .checkmark {
         display: none;
-    }
+    }  
     .brand {
         float: left;
         padding-left: 20px;
@@ -781,6 +780,12 @@ footer button {
         display: inline-block;
         visibility: visible;
     }
+}
+
+@media screen and (min-width:993px) {
+    .checkmark-removed-small-screen {
+       display:none;
+    } 
 }
 
 @media screen and (min-width:768px) {
