@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!-------Head section with external scripts and own css style sheet-->
+
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,8 +16,11 @@
 
     <body class="body">
 
-<header id="navbar-top" class="header row container-fluid">
+  <header id="navbar-top" class="header row container-fluid">
     <div class="row">
+
+       <!----------------------Navbar section for brand container-->
+
         <div>
             <a href="index.html">
                 <div class="container-fluid col-md-4 brand-container  ">
@@ -23,8 +28,11 @@
                 </div>
             </a>
         </div>
+
+        <!----------Navbar icon with dropdown menu with main page section and external links for small screens-->
+
         <div id="toggle-button" class="dropdown">
-            <button type="button" class=" navbar-toggle dropdown" data-toggle="collapse" data-target="#toggle-button" aria-expanded="true" aria-controls="toggle-button">
+               <button type="button" class=" navbar-toggle dropdown" data-toggle="collapse" data-target="#toggle-button" aria-expanded="true" aria-controls="toggle-button">
                             <span class="sr-only">Toggle navigation</span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
@@ -46,6 +54,9 @@
                 </div>
             </ul>
         </div>
+
+        <!----------Larger screen Navbar main page and external links-->
+
         <div class="col-md-8 nav-links">
             <div class="row list-container">
                 <ul id="nav" class="list-inline">
@@ -79,7 +90,9 @@
         </div>
     </div>
 </header>
-        
+
+        <!----------Home section and also landing point of home page. Opens with probe questions and leads into
+        introduction to the client and what the public might expect to get from the site-->
 
         <section id="home" class="container-fluid section bgcharts">
             <div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 section-container-home">
@@ -90,9 +103,14 @@
                 <br>
                 <br>
                 <p>
-                    <h4>Welcome to Trade Safe where you can gain exclusive access, via our bespoke proprietary training, to some of the best trading hacks available. Over 22 years, in turbulant world markets, I have honed my techniques so you can learn from my distilled experience to trade better
-                        than some experts. Yes, even if you dont know how to trade yet! In a short amount of time you will learn the insider secrets that will give you the edge in any market. Sound too good to be true? Then keep reading.</h4>
+                    <h4>Welcome to Trade Safe where you can gain exclusive access, via our bespoke proprietary training, to some of 
+                    the best trading hacks available. Over 22 years, in turbulant world markets, I have honed my techniques so you 
+                    can learn from my distilled experience to trade better
+                        than some experts. Yes, even if you dont know how to trade yet! In a short amount of time you will learn the 
+                        insider secrets that will give you the edge in any market. Sound too good to be true? Then keep reading.</h4>
                 </p>
+
+                <!--------Hover over both images with mouse for skewed polaroid effect-->
                 <br>
                 <img src="assets/images/profile.jpg" height=170 width=170 alt="trainer-portrait" class="imgframe">
                 <img src="assets/images/dipta.png" height=170 width=170 alt="trainers-certification" class="imgframe">
@@ -113,12 +131,17 @@
             </div>
         </section>
 
+        <!----------Training section which covers a number of key items of interest that will be learned if the offer
+        is taken up by public. This then leads into cost for individuals and groups-->
 
       <section id="training" class="container-fluid section training">
             <div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 section-container-training">
                 <strong class="hookline">So, what will you learn?</strong>
                 <br>
                 <br>
+
+                <!---------list items with .checkmark used on larger screens-->
+
                 <ul class="checkmark">
                    
                     <li>How to profit from 3 market directions. Up. Down. And Sideways!</li>
@@ -142,6 +165,9 @@
                     <li>All of this and more is crammed into 3 vital areas of learning<br> which will set you apart from the rest.<br> THEY ARE...</li>
                    
                 </ul>
+
+                <!---------list items with .checkmark-removed-small-screen used on smaller screens-->
+
                 <ul class="checkmark-removed-small-screen">
                    
                     <li>How to profit from 3 market directions. Up. Down. And Sideways!</li>
@@ -165,6 +191,9 @@
                     <li>All of this and more is crammed into 3 vital areas of learning<br> which will set you apart from the rest.<br> THEY ARE...</li>
                    
                 </ul>
+
+                <!--------5 x images all have glow hover effect when mouse moved over them-->
+
                 <div class="three-vital-areas">
                     <div class="col-sm-12 col-md-4 TechA media-middle">
                         <div class="TechA2"><h2>TECHNICAL<br> ANALYSIS</h2></div>
@@ -227,8 +256,12 @@
                 </div>
             </div>
         </section>
+
+        <!----------An angled section divider separates the Training and Bookings sections-->
         
         <section class="section-divider"></section>
+
+        <!----------The Bookings section contains an urgent message for public to sign up quickly using a booking's modal form-->
 
          <section id="bookings" class="container-fluid section bookings">
             <div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 jumbotron section-container-bookings">
@@ -238,6 +271,9 @@
                 <p><button class="btn btn-lg btn-warning hvr-grow" data-toggle='modal' data-target='#bookingsModal'>Book Now!</button></p>
             </div>
         </section>
+
+        <!----------The Course Excerpt section allows the still undecided public to watch, via a YouTube link, some actual training
+        on Technical Analysis aimed at educating, adding trust and creating a sense of value around course-->
 
        <section id="course-excerpt" class="container-fluid section course-excerpt-section">
             <div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 section-container-course-excerpt">
@@ -256,6 +292,8 @@
             </div>
         </section>
 
+        <!----------Contact section is for general queries via a contact modal form-->
+
         <section id="contact" class="container-fluid section contact">
             <div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 section-container-contact">
                 <strong class="hookline hookline-contact">Get in touch<br> for anything else.</strong>
@@ -263,7 +301,12 @@
             </div>
         </section>
 
+        <!----------Footer section-->
+
         <footer class="container container-fluid footer col-sm-2">
+
+        <!----------Footer button for Legal Stuff menu and links which open on separate page-->
+
             <div id="legal-stuff" class="col-xs-12 col-sm-6 nav dropup">
                 <button class="btn dropbtn footer-list dropdown-toggle menuitem" type="button" data-toggle="dropdown" data-target="dropdown-menu"><span class="hvr-grow">Legal Stuff</span>
                 </button>
@@ -275,6 +318,9 @@
                     <li class="dropdownItem"><a target="_blank" href="legal.html#credits" class="dropdownLink">Credits</a></li>
                 </ul>
             </div>
+
+            <!----------Footer section social icons and relevant site links-->
+            
             <div class="footer-social col-xs-12 col-sm-6">
                 <ul class="list-inline social-links">
                     <li><a target="_blank" href="https://www.facebook.com/"><i class="fa fa-facebook hvr-icon-grow-rotate"></i></a></li>
@@ -284,6 +330,10 @@
                 </ul>
             </div>
         </footer>
+
+        <!-------End of Footer section-->
+
+        <!-------Bookings modal for Bookings section form-->
         
         <div class="modal fade" id="bookingsModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
             <div class="modal-dialog" role="document">
@@ -293,6 +343,9 @@
                         <h4 class="modal-title" id="myModalLabel">Trade Safe Course Booking Request</h4>
                     </div>
                     <div class="modal-body">
+
+                    <!------------------------Modal data is posted to CI formdump the same as course material exercise data-->
+
                         <form action="https://formdump.codeinstitute.net/" method="post">
                             <div class="form-group">
                                 <label for="name">Name</label>
@@ -322,6 +375,8 @@
             </div>
         </div>
 
+        <!-------Contact modal for Contact section form-->
+
         <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModal" aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
@@ -332,6 +387,9 @@
                         </button>
                     </div>
                     <div class="modal-body">
+
+                    <!------------------------Modal data is posted to CI formdump the same as course material exercise data-->
+                    
                         <form action="https://formdump.codeinstitute.net/" method="post">
                             <div class="form-group">
                                 <label for="name">Name</label>
@@ -355,7 +413,9 @@
                     </div>
                 </div>
             </div> 
-        </div>       
+        </div> 
+
+        <!-------Additional external scripts-->      
 
                 <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
                 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>

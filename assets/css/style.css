@@ -318,7 +318,9 @@ text-decoration:none !important;
   background-size: cover;
 }
 
-/*--------------------------------------Header*/
+/*-------------------------------------End of background plus inserted images by section*/
+
+/*--------------------------------Header Navbar*/
 
 header {
     position: fixed;
@@ -343,7 +345,7 @@ header {
     height: 70px;
 }
 
-/*----------------------------------Nav toggle sml screen dropdown menu*/
+/*----------------------------------Navbar toggle sml screen dropdown menu*/
 
 
 #toggle-button {
@@ -438,7 +440,7 @@ header {
     padding: 0;
 }
 
-/*--------------------------------------Links dropdown menu*/
+/*--------------------------------------Header Navbar Links dropdown menu*/
 
 button {
     background-color: #676767;
@@ -470,11 +472,10 @@ button {
     margin-bottom:0;
 }
 
-/*-----------------------------------------------Sections by Title*/
+/*----------------------------------------Sections by Title (for section background images see css lines 177-321)*/
 /*----------------------------------------Home section*/
 
 .section-container-home {
-    background-color: transparent;
     background-color: rgba(0,0,0,0.4);
     color: #ffffff;
     text-align: center;
@@ -486,6 +487,8 @@ button {
 .hookline {
     font-size: 50px;
 }
+
+/*---------------------Home section polaroid effect on both images*/
 
 #home div img:hover {
   -webkit-transform: scale(1.35) rotate(-2deg);
@@ -505,6 +508,8 @@ button {
     padding: 40px 0 40px 0;
     z-index: 2;
 }
+
+/*---------------------------------------Training section checkmark for list*/
 
 ul.checkmark li,
 ul.checkmark-removed-small-screen li {
@@ -543,6 +548,8 @@ ul.checkmark li:after {
   transform: rotate(40deg);
 }
 
+/*------------------------End of Training section checkmark for list*/
+
 .three-vital-areas{
 display: inline-block;
 }
@@ -570,6 +577,7 @@ display: inline-block;
    margin-bottom: 40px;
 }
 
+/*----------------------------------End of Training section*/
 
 /*----------------------------------------Section Divider*/
 
@@ -604,6 +612,8 @@ display: inline-block;
     color: white; 
 }
 
+/*----------------------Bookings form close/x icon*/
+
 .close-bookings {
     font-size: 36px;
     font-weight: 800;
@@ -637,6 +647,8 @@ display: inline-block;
     border-bottom: 1px solid #e5e5e5;
 }
 
+/*----------------------Contact form close/x icon*/
+
 .close-contact {
     font-size: 36px;
     font-weight: 800;
@@ -652,7 +664,7 @@ display: inline-block;
 .contact-submit-button {
     margin: 10px;
 }
-
+/*----------------------------------End of Sections by Title*/
 
 /*--------------------------------------Footer*/
 
@@ -669,6 +681,8 @@ display: inline-block;
   box-shadow: 13px 13px 15px -2px rgba(0,0,0,0.35);
 }
 
+/*------------Legal Stuff links via button in footer nav bar*/
+
 footer button {
     margin: 0;
     padding-top: 5px;
@@ -677,7 +691,6 @@ footer button {
 .nav {
     padding-left: inherit;
 }    
-
 
 .dropup-menu {
     display: none;
@@ -703,6 +716,10 @@ footer button {
     margin-left: inherit;
     padding-left: 10px;
 }  
+
+/*---------------End of Legal Stuff footer button*/
+
+/*---------------Footer Social links*/
 
 .social-links {
     border-radius: 50%;
@@ -736,8 +753,9 @@ footer button {
   font-size: 34px;
 }
 
+/*-------------------------------End of Footer*/
 
-/*----------------------------------------Legal Stuff.html*/
+/*-------------------------------Legal Stuff.html document*/
 
 #cookie-policy,
 #gdpr,
