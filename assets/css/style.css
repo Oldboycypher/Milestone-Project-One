@@ -19,7 +19,7 @@ footer {
 }
 
 .trade {
-    color: #800000;
+    color: #da111b;
 }
 
 .safe {
@@ -91,9 +91,9 @@ h6 {
 }
 
 .hookline {
-    margin: 30px 10px 30px 10px;
     padding-bottom: 25px;
     padding-top: 25px;
+    font-size: 50px;
 }
 
 .row {
@@ -484,9 +484,6 @@ button {
     margin-top: 120px;
     z-index: 1;
 }
-.hookline {
-    font-size: 50px;
-}
 
 /*---------------------Home section polaroid effect on both images*/
 
@@ -511,19 +508,18 @@ button {
 
 /*---------------------------------------Training section checkmark for list*/
 
-ul.checkmark li,
+ul.checkmark li, 
 ul.checkmark-removed-small-screen li {
-  font-size: 22px; 
-  list-style-type: none; 
-  margin-bottom: 5px; 
-  padding: 0 5px 0 10px; 
-  position: relative;
+    font-size: 22px;
+    list-style-type: none;
+    margin-bottom: 10px;
+    position: relative;
 }
 
 ul.checkmark li:before {
   content: " "; 
   display: block;
-  border: solid 16px #00ffff;
+  border: solid 16px #1e90ff;
   border-radius: 16px; 
   position: absolute; 
   top: 35%; 
@@ -535,7 +531,7 @@ ul.checkmark li:after {
   display: block;
   width: 14px; 
   height: 28px;
-  border: solid #228b22;
+  border: solid #00ff00;
   border-width: 0 7px 7px 0; 
   position: absolute;
   left: 24px;
@@ -546,6 +542,10 @@ ul.checkmark li:after {
   -o-transform: rotate(40deg);
   -ms-transform: rotate(40deg);
   transform: rotate(40deg);
+}
+
+ul {
+    padding-left: inherit;
 }
 
 /*------------------------End of Training section checkmark for list*/
@@ -631,6 +631,16 @@ display: inline-block;
 }
 
 /*----------------------------------------Course Excerpt section*/
+
+.transDiv {
+    background-color: #ece6e6;
+    opacity: 0.8;
+    border-radius: 25px;
+}
+
+.transDiv .hookline{
+    color: black;
+}
 
 .video-container {
     border: transparent;
