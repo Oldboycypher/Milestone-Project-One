@@ -534,9 +534,9 @@ ul.checkmark li:after {
   border: solid #00ff00;
   border-width: 0 7px 7px 0; 
   position: absolute;
-  left: 24px;
+  left: 17px;
   top: 20%;
-  margin-top: -4px;
+  margin-top: -10px;
   -webkit-transform: rotate(40deg); 
   -moz-transform: rotate(40deg);
   -o-transform: rotate(40deg);
@@ -627,19 +627,15 @@ display: inline-block;
 }
 
 .booking-submit-button {
-    margin: 10px;
-}
+    margin: 10px;}
 
 /*----------------------------------------Course Excerpt section*/
 
 .transDiv {
     background-color: #ece6e6;
+    color: black;
     opacity: 0.8;
     border-radius: 25px;
-}
-
-.transDiv .hookline{
-    color: black;
 }
 
 .video-container {
