@@ -80,7 +80,7 @@
 #### The site was thoroughly tested throughout the build process. Every change was first checked for scaling and responsiveness in Dev Tools for all screen sizes and devices. All links were constantly checked and fixed/updated if required, for example when changing a background image.
 #### Dev Tools testing covers screen sizes in pixels from 320 x 569, 375 x 569, 425 x 569, 768 x 569, 1024 x 758, 1440 x 875 to 2560 x 1625.
 #### Dev Tools Responsive testing covers the following devices: Galaxy S5, Pixel 2, Pixel 2 XL, iPhone 5/SE, iPhone 6/7/8, iPhone 6/7/8 Plus, iPhone X, iPad and iPad Pro.
-#### Real life testing occured at the middle and end stage of project completion. This included testing on various devises by myself and 4 others.
+#### Real life testing occured at the middle and end stage of project completion. This included testing on various devises by myself and 5 others.
 ### Devices used and their browser types:
   - #### iPhone 5 using Safari browser.
   - #### MacBook Pro using Google Chrome browser.
@@ -98,7 +98,7 @@
 # Contact form:
 #### The site uses 2 forms. One in the Booking section and one in the Contact section. Each form is formatted for the same same user responses.
 #### When submitting, if a field is left empty, an error message will appear asking for the field to be completed. If the email section fails to contain an '@' symbol, an error message will appear asking for this to be included.
-#### When the valid form is submitted the user is taken to the CI site for formdump.codeinstitute.net. Here a message will display saying "Congratulations! If you can read this, you have prepared and submitted your form correctly."
+#### When the valid form is submitted the user is taken to the CI site for <https://formdump.codeinstitute.net/>. Here a message will display saying "Congratulations! If you can read this, you have prepared and submitted your form correctly."
 
 #### The forms were tested on all virtual screen sizes and responsive layouts. Also testing was done on all devices mentioned in testing. On the smallest screen being iPhone 5, the form fills the screen but no overlap. Larger devices the form sits central and uses on average 1/3 to 1/2 the view width of the screen.
 
@@ -107,33 +107,33 @@
 #### Project files on GitHub: <https://github.com/Oldboycypher/Milestone-Project-One>
 #### The site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html.
 #### Deployed Site on GitHub Pages: <https://oldboycypher.github.io/Milestone-Project-One/index.html>
-#### To run locally, you can clone this repository directly into the editor of your choice by pasting 'git clone https://github.com/Oldboycypher/Milestone-Project-One.git' into your terminal. To cut ties with this GitHub repository, type 'git remote rm origin' into the terminal.
+#### To run locally, you can clone this repository directly into the editor of your choice by pasting 'git clone <https://github.com/Oldboycypher/Milestone-Project-One.git>' into your terminal. To cut ties with this GitHub repository, type 'git remote rm origin' into the terminal.
 
 
 # Credits
 
 #### Several credits and acknowledgements ( which can also be found on the site by clicking on Legal Stuff then Credits) need mention for support in making certain elements of this website as below:
 
-#### 1. For support with overiding Chrome defaults on Nav dropdown links ( CSS line 165 ) found code on medium.com/@hassadee. This removed blue border for header links btn. The code was modified for my site.
+#### 1. For support with overiding Chrome defaults on Nav dropdown links ( CSS line 165 ) found code on <http://www.medium.com/@hassadee>. This removed blue border for header links btn. The code was modified for my site.
 
-#### 2. For more support with the above Chrome defaults issue, this time removing blue border from header business name, found code on stackoverflow.com CSS line 170. Code not modified.
+#### 2. For more support with the above Chrome defaults issue, this time removing blue border from header business name, found code on <http://www.stackoverflow.com> CSS line 170. Code not modified.
 
-#### 3. All hover effects are thanks to Ian Lunn at https://ianlunn.co.uk/ via Cloud Flare https://www.cloudflare.com/ ( CDNJS Libraries ). Code not modified.
+#### 3. All hover effects are thanks to Ian Lunn at <https://ianlunn.co.uk/> via Cloud Flare <https://www.cloudflare.com/> ( CDNJS Libraries ). Code not modified.
 
-#### 4. In the Training section used a CSS Checkmark Icon with code found at boylesoftware.com. ( CSS lines 477-511 ). Code was modified for site.
+#### 4. In the Training section used a CSS Checkmark Icon with code found at <http://www.boylesoftware.com>. ( CSS lines 477-511 ). Code was modified for site.
 
-#### 5. All written content is mine. The 2 photos in the Home section of myself and the Diploma are credited to me also. The YouTube video is thanks to thechartguys.com. The video can be seen here https://youtu.be/rlZRtQkfK04. All other images are from various sites and were found via Advanced Google search. Below are all images and their source.
-  - #### bgcharts.jpeg sourced from www.aljanh.net
-  - #### technical.png sourced from www.markettraders.com
-  - #### trading-psychology.png sourced from www.optionstradingiq.com
-  - #### moneyman.jpg sourced from www.meteofinanza.com
-  - #### package-121.jpg sourced from www.sjr-heidelberg.de
-  - #### package-group.jpg sourced from lean-expert.com
-  - #### bookings.jpg sourced from www.dailymail.co.uk
-  - #### excerpt-background.jpeg sourced from pexels.com
-  - #### contact.jpg sourced from pixabay.com
+#### 5. All written content is mine. The 2 photos in the Home section of myself and the Diploma are credited to me also. The YouTube video is thanks to <https://www.chartguys.com/>. The video can be seen here https://youtu.be/rlZRtQkfK04. All other images are from various sites and were found via Advanced Google search. Below are all images and their source.
+  - #### bgcharts.jpeg sourced from <http://www.aljanh.net>
+  - #### technical.png sourced from <https://www.markettraders.com>
+  - #### trading-psychology.png sourced from <https://www.optionstradingiq.com>
+  - #### moneyman.jpg sourced from <https://www.meteofinanza.com>
+  - #### package-121.jpg sourced from <https://www.sjr-heidelberg.de>
+  - #### package-group.jpg sourced from <https://www.lean-expert.com>
+  - #### bookings.jpg sourced from <https://www.dailymail.co.uk>
+  - #### excerpt-background.jpeg sourced from <https://www.pexels.com>
+  - #### contact.jpg sourced from <https://www.pixabay.com>
 
-#### 6. CI/Haley Schafer for the README and some wording in the Deployment section.
+#### 6. CI/Haley Schafer for the <a href="https://github.com/Code-Institute-Solutions/StudentExampleProjectGradeFive/blob/master/README.md#credits">README</a> and some wording in the Deployment section. 
 
 # Authors Final Note:
 

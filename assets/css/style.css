@@ -832,7 +832,7 @@ footer button {
     }
 }
 
-/*--------@media to remove poor scaled background images and support iOS and devices less than 420px*/
+/*--------@media to remove poor scaled background images devices less than 420px; and @supports for iOS/iPad less than 768px*/
 
 @media screen and (max-width:420px) {
     .bgcharts {
@@ -858,6 +858,34 @@ footer button {
         background: transparent;
     }
     } 
+
+/*-------requires some testing to verify if this syntax correct or usefull-----*/
+
+@supports screen and (max-width:768px) {
+    .bgcharts {
+         background: transparent;
+    }
+    #home {
+        background-color: #1e90ff;
+    }
+    .section-container-home {
+        background-color: rgba(0,0,0,0);
+    }    
+    .bookings {
+        background: transparent;
+    }
+    #bookings {
+        background-color:#d6932e;
+    }
+    #bookings .btn {
+        background-color: #00ff00;
+        color: #676767;
+    }
+    .course-excerpt-section {
+        background: transparent;
+    }
+    } 
+    
 
     /*------------@media changes to section divider for large screens over 1440px-----*/   
    
