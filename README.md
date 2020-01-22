@@ -133,7 +133,7 @@
   - #### excerpt-background.jpeg sourced from <https://www.pexels.com>
   - #### contact.jpg sourced from <https://www.pixabay.com>
 
-#### 6. CI/Haley Schafer for the <a href="https://github.com/Code-Institute-Solutions/StudentExampleProjectGradeFive/blob/master/README.md#credits">README</a> and some wording in the Deployment section. 
+#### 6. CI/Haley Schafer for the <a href="https://github.com/Code-Institute-Solutions/StudentExampleProjectGradeFive/blob/master/README.md">README</a> and some wording in the <a href="https://github.com/Code-Institute-Solutions/StudentExampleProjectGradeFive/blob/master/README.md#deployment">Deployment</a> section. 
 
 # Authors Final Note:
 

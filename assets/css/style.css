@@ -122,8 +122,8 @@ h6 {
 .package-cost-121 div img,
 .package-cost-group div img {
    border: groove 2px black;
-   min-height: 160px;
-   min-width: 140px;
+   min-height: 170px;
+   min-width: 170px;
 }
 
 .package-h3{
@@ -193,7 +193,7 @@ text-decoration:none !important;
 
 .imgframe {
     background:white;
-    padding:7px 7px 30px 7px;
+    padding:10px 10px 35px 10px;
     border:1px solid black; 
     margin: 15px 10px 30px;
     -webkit-transition: -webkit-transform .15s linear;
@@ -270,6 +270,12 @@ text-decoration:none !important;
   -o-background-size: cover;
   background-size: cover;
 }
+
+.img {
+    vertical-align: inherit;
+    object-fit: cover;
+}
+
 
 /*-------------------------------------bookings section*/
 
@@ -574,8 +580,8 @@ display: inline-block;
 .TechA div img,
 .MoneyMan div img,
 .TradePsy div img {
-   min-height: 140px;
-   min-width: 140px;
+   min-height: 170px;
+   min-width: 170px;
    margin-bottom: 40px;
 }
 
