@@ -60,7 +60,6 @@
 
    - #### The optional Testimonials section. This requires JavaScript and would have several images and text continuously self rotate from the right to left with pause on each.
    - #### The top navbar disappearing on scroll down except for the toggle icon for navigation. The footer navbar to appear on scroll up.
-   - #### Improved background images to correctly scale for small screens rather than be removed.
    - #### All images in Training section, when hovered over, reveal card with course details and costings instead of lengthy text before static images.
    - #### Both modal forms, when data submitted, to post a confirmation form on same page.
 
@@ -85,15 +84,17 @@
   - #### iPhone 5 using Safari browser.
   - #### MacBook Pro using Google Chrome browser.
   - #### iPad using Safari browser.
-  - ####
-  - ####
-  - ####
-  - ####
-#### Testing showed issues such as:
+  - #### iPhone 7 using Chrome version 70.0.3945.73.
+  - #### HP laptop with 15" screen using Chrome.
+  - #### Samsung S8 using Google Chrome.
+#### Final testing with multiple devices showed issues such as:
   - #### 'TRADE' part of logo name needed colour change due to poor nav contrast.
-  - #### Margins were needed around polaroid images and some text to give better distance between them and other content.
-  - #### Even with @media removal of images for smaller screens, some images were still blurred on iPad. Used @support to correct this.
-#### I have ignored some warnings in the W3 HTML and CSS Validation process as they appeared irrelevent to the site/code as created or produced unintended errors when actioned. All other suggestions and syntax improvements were implemented. 
+  - #### Margins were needed around polaroid images and some text to give better distance between them and other content. Changes to padding, min size and adding object-fit:cover to img improved aspect ratio when viewing polaroids.
+  - #### Even with @media removal of images for smaller screens, some images were still blurred on iPad. Attempted @supports to correct this but syntax seems closer to JavaScript and did not work so removed it.
+  - #### Heading font too large on smaller screens so used @media to reduce size.
+  - #### The Hamburger Menu (I've been calling it a Toggle-Button in my CSS classes as was unaware until very late of this title for it) when clicked or touched a few times will disappear and reappear if its location space is clicked/touched again. Thinking this may be a JavaScript fix and as such have not rectified it yet.
+  - #### While the idea of the Checkmark in Training was good, positioning relative to text was an issue not rectified. Used @ media to limit its visibility thus removing it from smaller and very large screens.
+#### I have ignored some warnings in the W3 HTML and CSS Validation process as they appeared irrelevent to the site/code as created or produced unintended errors when actioned and tested in Dev Tools. All other suggestions and syntax improvements were implemented. 
  
 # Contact form:
 #### The site uses 2 forms. One in the Booking section and one in the Contact section. Each form is formatted for the same same user responses.
@@ -140,7 +141,7 @@
 #### There have been several learnings and reveals along the way, a few I think I should touch on briefly below.
 #### This project has taken me much longer than anticipated. Firstly, and maybe its due partly to my age, was my own slowness to come to terms with even basic technology, as prior to this course I had been labeled a technophobe, so coming up to speed has been a hurdle. Secondly was the loss of nearly six months to a family illness. This gave me first hand experience of how difficult it is to progress meaningfully when your study blocks are short and often interrupted. Understanding and progress are directly linked to large blocks of uninterrupted time. I think this is what is meant by 'deep learning'.
 #### I am not a natural designer and this was a challenge for me. There were constant little changes to make the site more user friendly, visually appealing and uncluttered. The final site is not perfect but I will perservere and continue learning design skills and improving upon them.
-#### The big reveal for me was how certain habits and personallity traits when placed in a coding/study context become deleterious. These are perfectionism and overthinking. No detail required here; apply these traits to learning and problem solving and you get slow progress and time delays. Time for me to focus on personal improvement and become more effective at pace.
+#### The big reveal for me was how certain habits and personallity traits when placed in a coding/study context become deleterious. These are perfectionism and overthinking. No detail required here; apply these traits to learning and problem solving and you get slow progress and time delays. Time for me to focus on personal improvement and becoming more effective at pace.
 #### And finally, just a quick note for anyone reading this file and viewing the site: I am enrolled in a course of study in which developing this site is a part, but the site is not intended for commercial application. That said, I really hope you enjoy my site and I look forward to any feedback.
 
 
