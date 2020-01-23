@@ -483,11 +483,12 @@ button {
 /*----------------------------------------Home section*/
 
 .section-container-home {
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0,0,0,0.5);
     color: #ffffff;
     text-align: center;
     padding-left: 0;
     padding-right: 0;
+    border-radius: 15px;
     margin-top: 120px;
     z-index: 1;
 }
@@ -605,10 +606,10 @@ display: inline-block;
 }
 
 .jumbotron {
-    background-color: transparent;
-    text-align: center;
+    background-color: rgba(0,0,0,0.4);
     margin-top: 90px;
     margin-bottom: 70px;
+    border-radius: 35px;
 }
 
 #bookings h3 {
@@ -833,7 +834,7 @@ footer button {
     }
 }
 
-/*--------@media to remove poor scaled background images, smaller title font and reduced topnav on devices less than 420px*/
+/*--------@media to remove poor scaled background images, create smaller title font and reduced topnav on devices less than 420px*/
 
 @media screen and (max-width:420px) {
     .row {
@@ -841,10 +842,10 @@ footer button {
     }
     .brand {
         font-size: 28px;
-        margin-top: 12px;
     }
     .navbar-toggle {
         padding: 0;
+        top: -5px;
     }
     .hookline {
         font-size: 28px;
