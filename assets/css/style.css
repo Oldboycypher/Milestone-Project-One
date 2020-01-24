@@ -644,6 +644,7 @@ display: inline-block;
     background-color: #ece6e6;
     color: black;
     opacity: 0.8;
+    padding: 10px;
     border-radius: 25px;
 }
 
@@ -834,7 +835,7 @@ footer button {
     }
 }
 
-/*--------@media to remove poor scaled background images, create smaller title font and reduced topnav on devices less than 420px*/
+/*--------@media to remove poor scaled background images, create smaller title font, hide Jumbotron and reduce topnav on devices less than 420px*/
 
 @media screen and (max-width:420px) {
     .row {
@@ -869,8 +870,14 @@ footer button {
         background-color: #00ff00;
         color: #676767;
     }
+    .jumbotron {
+        background-color: transparent;
+    }
     .course-excerpt-section {
         background: transparent;
+    }
+    .transDiv{
+        background-color: transparent;
     }
     #course-excerpt iframe {
         width: 185px;
@@ -878,7 +885,15 @@ footer button {
     }     
 }
 
-    /*------------@media changes to section divider for large screens over 1440px-----*/   
+/*------------@media to hide Jumbotron for large screens over 1040px-----*/
+
+@media screen and (min-width:1040px) {
+    .jumbotron {
+        background-color: transparent;
+    }
+}
+
+/*------------@media changes to section divider for large screens over 1440px-----*/   
    
 
 @media screen and (min-width: 1440px) {
