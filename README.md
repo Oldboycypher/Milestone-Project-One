@@ -1,5 +1,5 @@
 
-   # Trade Safe PTY Milestone Project
+   # Trade Safe TM Milestone Project One
    
    ## Welcome to my Trade Safe website Milestone 1 Project.
    
@@ -90,7 +90,7 @@
 #### Final testing with multiple devices showed issues such as:
   - #### 'TRADE' part of logo name needed colour change due to poor nav contrast.
   - #### Margins were needed around polaroid images and some text to give better distance between them and other content. Changes to padding, min size and adding object-fit:cover to img improved aspect ratio when viewing polaroids.
-  - #### Even with @media removal of images for smaller screens, some images were still blurred on iPad between 420px and 768px. Attempted @supports to correct this but syntax seems closer to JavaScript and did not work so removed it. Have tried object-fit:cover/contain and scale-down with no improvement. Tried background-attachment:scroll with no change either. This has been the largest overall issue not rectified to date.
+  - #### Even with @media removal of images for smaller screens, some background images ( Home and Bookings ) were still pixelated or aspect was skewed on iPad between 420px and 768px. Attempted @supports to correct this but syntax seems closer to JavaScript and did not work so removed it. Added background-attachment:scroll, background-size:contain with a background-color:black as a means to fix this. Appears corrected in dev Tools emulators but may still be noticable on some real devices.
   - #### Heading font too large on smaller screens so used @media to reduce size along with a reduction in size of the topnav.
   - #### The Burger Menu (I've been calling it a Toggle-Button in my CSS classes as was unaware of this name for it) when clicked or touched a few times will disappear and reappear if its location space is clicked/touched again. Thinking this may be a JavaScript fix and as such have not rectified it yet.
   - #### While the idea of the Checkmark in Training was good, positioning relative to text was an issue not rectified. Used @ media to limit its visibility thus removing it from smaller and very large screens.
@@ -101,7 +101,7 @@
 #### When submitting, if a field is left empty, an error message will appear asking for the field to be completed. If the email section fails to contain an '@' symbol, an error message will appear asking for this to be included.
 #### When the valid form is submitted the user is taken to the CI site for <https://formdump.codeinstitute.net/>. Here a message will display saying "Congratulations! If you can read this, you have prepared and submitted your form correctly."
 
-#### The forms were tested on all virtual screen sizes and responsive layouts. Also testing was done on all devices mentioned in testing. On the smallest screen being iPhone 5, the form fills the screen but no overlap. Larger devices the form sits central and uses on average 1/3 to 1/2 the view width of the screen.
+#### The forms were tested on all virtual screen sizes and responsive layouts. Also testing was done on all devices mentioned in testing. On the smallest screen being iPhone 5, the form fills the screen but no width overlap. Larger devices the form sits central and uses on average 1/3 to 1/2 the view width of the screen.
 
 # Deployment
 #### This project and all files are located in a repository on GitHub. To view the files follow the link below:
@@ -123,7 +123,7 @@
 
 #### 4. In the Training section used a CSS Checkmark Icon with code found at <http://www.boylesoftware.com>. ( CSS lines 477-511 ). Code was modified for site.
 
-#### 5. All written content is mine. The 2 photos in the Home section of myself and the Diploma are credited to me also. The YouTube video is thanks to <https://www.chartguys.com/>. The video can be seen here https://youtu.be/rlZRtQkfK04. All other images are from various sites and were found via Advanced Google search. Below are all images and their source.
+#### 5. All written content is mine. The 2 polaroid photos in the Home section are of myself and my Diploma and therefore credited to me. The YouTube video is thanks to <https://www.chartguys.com/>. The video can be seen here <https://youtu.be/rlZRtQkfK04>. All other images are from various sites and were found via Advanced Google search. Below are all images and their source.
   - #### bgcharts.jpeg sourced from <http://www.aljanh.net>
   - #### technical.png sourced from <https://www.markettraders.com>
   - #### trading-psychology.png sourced from <https://www.optionstradingiq.com>
@@ -139,10 +139,10 @@
 # Authors Final Note:
 
 #### There have been several learnings and reveals along the way, a few I think I should touch on briefly below.
-#### This project has taken me much longer than anticipated. Firstly, and maybe its due partly to my age, was my own slowness to come to terms with even basic technology, as prior to this course I had been labeled a technophobe, so coming up to speed has been a hurdle. Secondly was the loss of nearly six months to a family illness. This gave me first hand experience of how difficult it is to progress meaningfully when your study blocks are short and often interrupted. Understanding and progress are directly linked to large blocks of uninterrupted time. I think this is what is meant by 'deep learning'.
+#### This project has taken me much longer than anticipated. Firstly, and maybe due partly to my age, was my own slowness to come to terms with even basic technology, as prior to this course I had been labeled a technophobe, so coming up to speed has been a hurdle. Secondly was the loss of nearly six months to a family illness. This gave me first hand experience of how difficult it is to progress meaningfully when your study blocks are short and often interrupted. Understanding and progress seem directly linked to large blocks of uninterrupted time. I think this is what is meant by 'deep learning'.
 #### I am not a natural designer and this was a challenge for me. There were constant little changes to make the site more user friendly, visually appealing and uncluttered. The final site is not perfect but I will perservere and continue learning design skills and improving upon them.
-#### The big reveal for me was how certain habits and personallity traits when placed in a coding/study context become deleterious. These are perfectionism and overthinking. No detail required here; apply these traits to learning and problem solving and you get slow progress and time delays. Time for me to focus on personal improvement and becoming more effective at pace.
-#### And finally, just a quick note for anyone reading this file and viewing the site: I am enrolled in a course of study in which developing this site is a part, but the site is not intended for commercial application. That said, I really hope you enjoy my site and I look forward to any feedback.
+#### The big reveal for me was how certain habits and personallity traits when placed in a coding/study context become deleterious. These are perfectionism and overthinking. No detail required here; apply these traits to learning and problem solving and you get slow progress and time delays. Being aware of this I can now focus on personal improvement in these areas and become more effective at pace.
+#### And finally, just a quick note for anyone reading this file and viewing the site: This site is not for commercial use and was built as part of a course of study. That said, I really hope you enjoy my site and I look forward to any feedback.
 
 
  

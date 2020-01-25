@@ -178,27 +178,33 @@ text-decoration:none !important;
 
 /*-------------------------------------home section*/
 
-.bgcharts { 
-  background: url("../images/bgcharts.jpeg") no-repeat center center fixed;
+.bgcharts {
+  background: url(../images/bgcharts.jpeg) no-repeat center center fixed;
+  background-color: #080808;
   z-index: -1;
   width: 100%;
+  height: auto;
   margin: 0 auto;
-  height:100%;
   background-attachment: fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
 }
 
 .imgframe {
-    background:white;
-    padding:10px 10px 35px 10px;
-    border:1px solid black; 
-    margin: 15px 10px 30px;
-    -webkit-transition: -webkit-transform .15s linear;
-    -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.25);
-    -moz-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+  background:white;
+  padding:10px 10px 35px 10px;
+  border:1px solid black; 
+  margin: 15px 10px 30px;
+  -webkit-transition: -webkit-transform .15s linear;
+  -moz-transition: -webkit-transform .15s linear;
+  -o-transition: -webkit-transform .15s linear;
+  transition: -webkit-transform .15s linear;
+  -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+  -moz-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+  -o-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+  box-shadow: 0 3px 6px rgba(0,0,0,.25);
 }
 
 /*-------------------------------------training section*/
@@ -272,24 +278,25 @@ text-decoration:none !important;
 }
 
 .img {
-    vertical-align: inherit;
-    object-fit: cover;
+  vertical-align: inherit;
+  object-fit: cover;
 }
 
 
 /*-------------------------------------bookings section*/
 
-.bookings { 
-  background: url("../images/bookings.jpg") no-repeat center center fixed;
+.bookings {
+  background: url(../images/bookings.jpg) no-repeat center center fixed;
+  background-color: black;
   z-index: -1;
   width: 100%;
   margin: 0 auto;
-  height:100%;
-  background-attachment: fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  height: auto;
+  background-attachment: scroll;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
 }
 
 
@@ -300,7 +307,7 @@ text-decoration:none !important;
   z-index: -1;
   width: 100%;
   margin: 0 auto;
-  height:100%;
+  height:auto;
   background-attachment: scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -483,7 +490,7 @@ button {
 /*----------------------------------------Home section*/
 
 .section-container-home {
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.3);
     color: #ffffff;
     text-align: center;
     padding-left: 0;
@@ -606,7 +613,7 @@ display: inline-block;
 }
 
 .jumbotron {
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0,0,0,0.3);
     margin-top: 90px;
     margin-bottom: 70px;
     border-radius: 35px;
