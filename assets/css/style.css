@@ -36,13 +36,6 @@ footer {
     font-size: 45%;
 }
 
-.fa-download:hover {
-    color: #1e90ff;
-    transition-property: color;
-    transition-duration: .6s;
-    transition-timing-function: ease-in-out;
-}
-
 li a span:hover {
     color: #1e90ff;
     transition-property: color;
@@ -124,11 +117,14 @@ h6 {
     padding: 30px 10px 25px 10px;;
 }
 
-.package-cost-121 div img,
-.package-cost-group div img {
-   border: groove 2px black;
-   min-height: 170px;
-   min-width: 170px;
+.package-cost-121 img,
+.package-cost-group img {
+    border: groove 2px transparent;
+    border-radius: 15px;
+    width: 33%;
+    height: 100%;
+    min-height: 170px;
+    min-width: 170px;
 }
 
 .package-h3{
@@ -214,7 +210,7 @@ text-decoration:none !important;
 
 /*-------------------------------------training section*/
 
-.training { 
+.training { /*---Background image removed but code ready if new one is added. White background active*/
   background: white;
   z-index: -1;
   width: 100%;
@@ -227,62 +223,7 @@ text-decoration:none !important;
   background-size: cover;
 }
 
-.TechA div img {
-  background: url("../images/technical.png") no-repeat center center fixed; 
-  width: 33%;
-  height:100%;
-  background-attachment: scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-.MoneyMan div img {
-  background: url("../images/moneyman.jpg") no-repeat center center fixed; 
-  width: 33%;
-  height:100%;
-  background-attachment: scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-.TradePsy div img {
-  background: url("../images/trading-psychology.png") no-repeat center center fixed; 
-  width: 33%;
-  height:100%;
-  background-attachment: scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-.package-cost-121 div img {
-  background: url("../images/package-121.jpg") no-repeat center center fixed;
-  width: 33%;
-  height:100%;
-  background-attachment: scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-.package-cost-group div img {
-  background: url("../images/package-group.jpg") no-repeat center center fixed;
-  width: 33%;
-  height:100%;
-  background-attachment: scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-.img {
+img {
   vertical-align: inherit;
   object-fit: cover;
 }
@@ -408,9 +349,10 @@ header {
     display: none;
     position: relative;
     list-style: none;
-    margin-right:  0;
+    margin-right: 0;
     border: none;
     text-align: left;
+    padding-left: 40px;
     line-height: 25px;
     background-color: #676767;
 }
@@ -590,12 +532,14 @@ display: inline-block;
     padding-bottom: 12px;
 }
 
-.TechA div img,
-.MoneyMan div img,
-.TradePsy div img {
-   min-height: 170px;
-   min-width: 170px;
-   margin-bottom: 40px;
+.TechA img,
+.MoneyMan img,
+.TradePsy img {
+    width: 33%;
+    height: 100%;
+    min-height: 170px;
+    min-width: 170px;
+    margin-bottom: 40px;
 }
 
 /*----------------------------------End of Training section*/
@@ -618,7 +562,7 @@ display: inline-block;
 }
 
 .jumbotron {
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0,0,0,0.2);
     margin-top: 90px;
     margin-bottom: 70px;
     border-radius: 35px;
@@ -915,5 +859,11 @@ footer button {
     }
 }
 
+/*------CSS validation icon-----*/
 
-
+.cssVal {
+    float:right;
+    position: fixed;
+    bottom: 25px;
+    right: 0;
+}
