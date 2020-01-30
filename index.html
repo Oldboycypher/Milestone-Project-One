@@ -1,429 +1,461 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-------Head section with external scripts and own css style sheet-->
+<!--Head section with external scripts and own css style sheet-->
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
-        <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-        <title>Trade Safe | Bespoke Trader Training</title>
-    </head>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+		type="text/css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
+		type="text/css" />
+	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+	<title>Trade Safe | Bespoke Trader Training</title>
+</head>
 
-    <body class="body">
+<body class="body">
 
-  <header id="navbar-top" class="header row container-fluid">
-    <div class="row">
+	<header id="navbar-top" class="header row container-fluid">
+		<div class="row">
 
-       <!----------------------Navbar section for brand container-->
+			<!--Navbar section for brand container-->
 
-        <div>
-            <a href="index.html">
-                <div class="container-fluid col-md-4 brand-container  ">
-                    <h1 class="brand"><span class="trade">Trade</span><span class="safe"> Safe<sup class="trademark"> TM</sup></span></h1>
-                </div>
-            </a>
-        </div>
+			<div>
+				<a href="index.html">
+					<div class="container-fluid col-md-4 brand-container  ">
+						<h1 class="brand">
+							<span class="trade">Trade</span><span class="safe"> Safe<sup class="trademark"> TM</sup></span>
+						</h1>
+					</div>
+				</a>
+			</div>
 
-        <!----------Navbar icon with dropdown menu with main page section and external links for small screens-->
+			<!--Navbar icon ( Hamburger Menu ) with dropdown menu containing main page section and external links for small screens-->
 
-        <div id="toggle-button" class="dropdown">
-               <button type="button" class=" navbar-toggle dropdown" data-toggle="collapse" data-target="#toggle-button" aria-expanded="true" aria-controls="toggle-button">
+			<div id="toggle-button" class="dropdown">
+				<button type="button" class=" navbar-toggle dropdown" data-toggle="collapse" data-target="#toggle-button" aria-expanded="true" aria-controls="toggle-button">
                             <span class="sr-only">Toggle navigation</span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                 </button>
-            <ul id="navbar-toggle-list" class="dropdown-menu list-inline">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#training">Training</a></li>
-                <li><a href="#bookings">Bookings</a></li>
-                <li><a href="#course-excerpt">Excerpt</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <div class="external-links-toggle-dropdown">
-                    <li><a a href="#" class="links-header">External Links</a></li>
-                    <ul class="dropdown-menu2">
-                        <li><a target="_blank" href="https://markets.businessinsider.com/">Markets</a></li>
-                        <li><a target="_blank" href="https://www.investopedia.com/uk/">Investorpedia</a></li>
-                        <li><a target="_blank" href="https://www.youtube.com/results?search_query=technical+trading">YouTube Tutorials</a></li>
-                    </ul>
-                </div>
-            </ul>
-        </div>
+				<ul id="navbar-toggle-list" class="dropdown-menu list-inline">
+					<li><a href="#home">Home</a></li>
+					<li><a href="#training">Training</a></li>
+					<li><a href="#bookings">Bookings</a></li>
+					<li><a href="#course-excerpt">Excerpt</a></li>
+					<li><a href="#contact">Contact</a></li>
+					<li class="external-links-toggle-dropdown">
+						<a href="#" class="links-header">External Links <i class="fa fa-caret-down"></i></a>
+						<div class="dropdown-menu2">
+							<a target="_blank" href="https://markets.businessinsider.com/">Markets</a>
+							<a target="_blank" href="https://www.investopedia.com/uk/">Investorpedia</a>
+							<a target="_blank"
+								href="https://www.youtube.com/results?search_query=technical+trading">YouTube
+								Tutorials</a>
+						</div>
+					</li>
+				</ul>
+			</div>
 
-        <!----------Larger screen Navbar main page and external links-->
+			<!--Larger screen Navbar main page and external links-->
 
-        <div class="col-md-8 nav-links">
-            <div class="row list-container">
-                <ul id="nav" class="list-inline">
-                    <li class="col-xs-6 col-sm-2 menuitem menuitem-text">
-                        <a href="index.html" class="hvr-grow"><span>Home</span></a>
-                    </li>
-                    <li class="col-xs-6 col-sm-2 menuitem menuitem-text">
-                        <a href="#training" class="hvr-grow"><span>Training</span></a>
-                    </li>
-                    <li class="col-xs-6 col-sm-2 menuitem menuitem-text">
-                        <a href="#bookings" class="hvr-grow"><span>Booking</span></a>
-                    </li>
-                    <li class="col-xs-6 col-sm-2 menuitem menuitem-text">
-                        <a href="#course-excerpt" class="hvr-grow"><span>Excerpt</span></a>
-                    </li>
-                    <li class="col-xs-6 col-sm-2 menuitem menuitem-text">
-                        <a href="#contact" class="hvr-grow"><span>Contact</span></a>
-                    </li>
-                    <li class="col-xs-6 col-sm-2 menuitem menuitem-text">
-                        <div class="dropdown2">
-                            <button class="btn dropdown-toggle" type="button" data-toggle="dropdown" data-target="dropdown-menu"><span class="hvr-grow">Links</span></button>
-                            <ul id="dropdown-menu2" class="dropdown-menu">
-                                <li><a target="_blank" href="https://markets.businessinsider.com/" class="dropdownLink">Markets</a></li>
-                                <li><a target="_blank" href="https://www.investopedia.com/uk/" class="dropdownLink">Investorpedia</a></li>
-                                <li><a target="_blank" href="https://www.youtube.com/results?search_query=technical+trading" class="dropdownLink">YouTube Tutorials</a></li>
-                            </ul>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</header>
+			<div class="col-md-8 nav-links">
+				<div class="row list-container">
+					<ul id="nav" class="list-inline">
+						<li class="col-xs-6 col-sm-2 menuitem menuitem-text">
+							<a href="index.html" class="hvr-grow"><span>Home</span></a>
+						</li>
+						<li class="col-xs-6 col-sm-2 menuitem menuitem-text">
+							<a href="#training" class="hvr-grow"><span>Training</span></a>
+						</li>
+						<li class="col-xs-6 col-sm-2 menuitem menuitem-text">
+							<a href="#bookings" class="hvr-grow"><span>Booking</span></a>
+						</li>
+						<li class="col-xs-6 col-sm-2 menuitem menuitem-text">
+							<a href="#course-excerpt" class="hvr-grow"><span>Excerpt</span></a>
+						</li>
+						<li class="col-xs-6 col-sm-2 menuitem menuitem-text">
+							<a href="#contact" class="hvr-grow"><span>Contact</span></a>
+						</li>
+						<li class="col-xs-6 col-sm-2 menuitem menuitem-text">
+							<div class="dropdown2">
+								<button class="btn dropdown-toggle" type="button" data-toggle="dropdown" data-target="dropdown-menu"><span class="hvr-grow">Links</span></button>
+								<ul id="dropdown-menu2" class="dropdown-menu">
+									<li><a target="_blank" href="https://markets.businessinsider.com/"
+											class="dropdownLink">Markets</a></li>
+									<li><a target="_blank" href="https://www.investopedia.com/uk/"
+											class="dropdownLink">Investorpedia</a></li>
+									<li><a target="_blank"
+											href="https://www.youtube.com/results?search_query=technical+trading"
+											class="dropdownLink">YouTube Tutorials</a></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</header>
 
-        <!----------Home section and also landing point/home page. Opens with probe questions and leads into
+	<!--Home section and also landing point/home page. Opens with probe questions and leads into
         introduction to the client and what the public might expect to get from the site-->
 
-        <section id="home" class="container-fluid section bgcharts">
-            <div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 section-container-home">
-                <strong class="hookline">Want to learn to trade but think its risky?</strong>
-                <br>
-                <br>
-                <strong class="hookline">Are there secrets to safer trading profits?</strong>
-                <br>
-                <br>
-                <p>
-                    <h4>Welcome to Trade Safe where you can gain exclusive access, via our bespoke proprietary training, to some of 
-                    the best trading hacks available. Over 22 years, in turbulant world markets, I have honed my techniques so you 
-                    can learn from my distilled experience to trade better
-                        than some experts. Yes, even if you dont know how to trade yet! In a short amount of time you will learn the 
-                        insider secrets that will give you the edge in any market. Sound too good to be true? Then keep reading.</h4>
-                </p>
+	<section id="home" class="container-fluid section bgcharts">
+		<div
+			class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 section-container-home">
+			<strong class="hookline">Want to learn to trade but think its risky?</strong>
+			<br>
+			<br>
+			<strong class="hookline">Are there secrets to safer trading profits?</strong>
+			<br>
+			<br>
+			<h4>Welcome to Trade Safe where you can gain exclusive access, via our bespoke proprietary training, to some
+				of
+				the best trading hacks available. Over 22 years, in turbulant world markets, I have honed my techniques
+				so you
+				can learn from my distilled experience to trade better
+				than some experts. Yes, even if you dont know how to trade yet! In a short amount of time you will learn
+				the
+				insider secrets that will give you the edge in any market. Sound too good to be true? Then keep reading.
+			</h4>
 
-                <!--------Hover over both images with mouse for skewed polaroid effect-->
+			<!--Hover over both images with mouse for skewed polaroid effect-->
 
-                <br>
-                <img src="assets/images/profile.jpg" height=180 width=160 alt="trainer portrait" class="imgframe">
-                <img src="assets/images/dipta.png" height=180 width=160 alt="trainers certification" class="imgframe">
-                <p>
-                    <h4>Hi, my name is Paul Kitching, and for the last 22 years I've been actively trading the international share markets. 
-                    Early on I lost more money than I made but years later my insights helped me trade very profitably through the Dot Com 
-                    bubble and even make money on the downside. I also saw the warning signs and correctly called the 2008 crash, also making 
-                    money on the downside. In the early days I missed opportunities by taking bad
-                    advice as well as paying good money for more seminars and courses than I can remember. And guess what? Most of what 
-                    these other experts were peddling for exorbitant fees, can now be found online for free! But it still WON'T teach you how to trade safely.</h4>
-                </p>
-                <br>
-                <p>
-                    <h4>That's where I come in. Every time I lost money through bad advice or from a seminar strategy, I became driven to find answers for myself. 
-                    That's why my mission has been to find the safest way to trade shares that
-                        anyone can learn, including YOU!</h4>
-                </p>
-            </div>
-        </section>
+			<br>
+			<img src="assets/images/profile.jpg" height=180 width=160 alt="trainer portrait" class="imgframe">
+			<img src="assets/images/dipta.png" height=180 width=160 alt="trainers certification" class="imgframe">
+			<br>
+			<h4>Hi, my name is Paul Kitching, and for the last 22 years I've been actively trading the international
+				share markets.
+				Early on I lost more money than I made but years later my insights helped me trade very profitably
+				through the Dot Com
+				bubble and even make money on the downside. I also saw the warning signs and correctly called the 2008
+				crash, also making
+				money on the downside. In the early days I missed opportunities by taking bad
+				advice as well as paying good money for more seminars and courses than I can remember. And guess what?
+				Most of what
+				these other experts were peddling for exorbitant fees, can now be found online for free! But it still
+				WON'T teach you how to trade safely.</h4>
+			<br>
+			<h4>That's where I come in. Every time I lost money through bad advice or from a seminar strategy, I became
+				driven to find answers for myself.
+				That's why my mission has been to find the safest way to trade shares that
+				anyone can learn, including YOU!</h4>
+		</div>
+	</section>
 
-        <!----------Training section which covers a number of key items of interest that will be learned if the offer
+	<!--Training section which covers a number of key items of interest that will be learned if the offer
         is taken up by public. This then leads into cost for individuals and groups-->
 
-      <section id="training" class="container-fluid section training">
-            <div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 section-container-training">
-                <strong class="hookline">So, what will you learn?</strong>
-                <br>
-                <br>
-                <br>
-                <br>
+	<section id="training" class="container-fluid section training">
+		<div
+			class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 section-container-training">
+			<strong class="hookline">So, what will you learn?</strong>
+			<br>
+			<br>
+			<br>
+			<br>
 
-                <!---------list items with .checkmark used on larger screens-->
+			<!--list items with .checkmark used on larger screens-->
 
-                <ul class="checkmark">
-                   
-                    <li>How to profit from 3 market directions. Up. Down. And Sideways!</li>
-                  
-                    <li><strong>That you don't need to know anything about the<br> company who's shares you are buying.</strong></li>
-                  
-                    <li>When to get in. But especially WHEN TO GET OUT!</li>
-                    
-                    <li><strong> How to calculate potential profits.</strong></li>
-                    
-                    <li>Safeguard your profits with a 'Stop Loss'.</li>
-                   
-                    <li><strong>The best technical indicators to use and why.</strong></li>
-                    
-                    <li>How to set up a Broker's 'No Advice' account. </li>
+			<ul class="checkmark">
 
-                    <li><strong>How to manage your money. Learn the 2% Rule.<br> Get more trades from your account.</strong></li>
+				<li>How to profit from 3 market directions. Up. Down. And Sideways!</li>
 
-                    <li>Develope a traders mindset. Learn why some fail<br> whilst others succeed.</li>
-                   
-                    <li><strong>All of this and more is crammed into 3 vital areas of learning<br> which will set you apart from the rest.<br><br> THEY ARE...</strong></li>
-                   
-                </ul>
+				<li><strong>That you don't need to know anything about the<br> company who's shares you are buying.</strong>
+				</li>
 
-                <!---------list items with .checkmark-removed-small-screen used on smaller screens-->
+				<li>When to get in. But especially WHEN TO GET OUT!</li>
 
-                <ul class="checkmark-removed-small-screen">
-                   
-                    <li>How to profit from 3 market directions. Up. Down. And Sideways!</li>
-                  
-                    <li><strong>That you don't need to know anything about the<br> company who's shares you are buying.</strong></li>
-                  
-                    <li>When to get in. But especially WHEN TO GET OUT!</li>
-                    
-                    <li><strong> How to calculate potential profits.</strong></li>
-                    
-                    <li>Safeguard your profits with a 'Stop Loss'.</li>
-                   
-                    <li><strong>The best technical indicators to use and why.</strong></li>
-                    
-                    <li>How to set up a Broker's 'No Advice' account. </li>
+				<li><strong> How to calculate potential profits.</strong></li>
 
-                    <li><strong>How to manage your money. Learn the 2% Rule.<br> Get more trades from your account.</strong></li>
+				<li>Safeguard your profits with a 'Stop Loss'.</li>
 
-                    <li>Develope a traders mindset. Learn why some fail<br> whilst others succeed.</li>
-                   
-                    <li><strong>All of this and more is crammed into 3 vital areas of learning<br> which will set you apart from the rest.<br><br><br> THEY ARE...</strong></li>
-                   
-                </ul>
+				<li><strong>The best technical indicators to use and why.</strong></li>
 
-                <!--------5 x images all have glow hover effect when mouse moved over them-->
+				<li>How to set up a Broker's 'No Advice' account. </li>
 
-                <div class="three-vital-areas">
-                    <div class="col-sm-12 col-md-4 TechA media-middle">
-                        <div class="TechA2"><h2>TECHNICAL<br> ANALYSIS</h2></div>
-                        <br>
-                        <div>
-                        <img class="hvr-glow media-object">
-                        <p alt="screen shot of technical indicators applied to share prices"></p>
-                        </div>
+				<li><strong>How to manage your money. Learn the 2% Rule.<br> Get more trades from your account.</strong>
+				</li>
+
+				<li>Develope a traders mindset. Learn why some fail<br> whilst others succeed.</li>
+
+				<li><strong>All of this and more is crammed into 3 vital areas of learning<br> which will set you apart from the rest.<br><br> THEY ARE...</strong>
+				</li>
+
+			</ul>
+
+			<!--list items with .checkmark-removed-small-screen used on smaller screens-->
+
+			<ul class="checkmark-removed-small-screen">
+
+				<li>How to profit from 3 market directions. Up. Down. And Sideways!</li>
+
+				<li><strong>That you don't need to know anything about the<br> company who's shares you are buying.</strong>
+				</li>
+
+				<li>When to get in. But especially WHEN TO GET OUT!</li>
+
+				<li><strong> How to calculate potential profits.</strong></li>
+
+				<li>Safeguard your profits with a 'Stop Loss'.</li>
+
+				<li><strong>The best technical indicators to use and why.</strong></li>
+
+				<li>How to set up a Broker's 'No Advice' account. </li>
+
+				<li><strong>How to manage your money. Learn the 2% Rule.<br> Get more trades from your account.</strong>
+				</li>
+
+				<li>Develope a traders mindset. Learn why some fail<br> whilst others succeed.</li>
+
+				<li><strong>All of this and more is crammed into 3 vital areas of learning<br> which will set you apart from the rest.<br><br><br> THEY ARE...</strong>
+				</li>
+
+			</ul>
+
+			<!--5 x images all have glow hover effect when mouse moved over them-->
+
+			<div class="three-vital-areas">
+				<div class="col-sm-12 col-md-4 TechA media-middle">
+					<div class="TechA2">
+						<h2>TECHNICAL<br> ANALYSIS</h2>
+					</div><br>
+					<img src="assets/images/technical.png" alt="screen shot of technical indicators applied to share prices" class="hvr-glow media-object">
                     </div>
-                    <div class="col-sm-12 col-md-4 MoneyMan media-middle">
-                        <div class="MoneyMan2"><h2>MONEY<br> MANAGEMENT</h2></div>
-                        <br>
-                        <div>
-                        <img class="hvr-glow media-object">
-                        <p alt="person managing finances on laptop"></p>
-                        </div>
+					<div class="col-sm-12 col-md-4 MoneyMan media-middle">
+						<div class="MoneyMan2">
+							<h2>MONEY<br> MANAGEMENT</h2>
+						</div><br>
+						<img src="assets/images/moneyman.jpg" alt="person managing finances on laptop" class="hvr-glow media-object">
                     </div>
-                    <div class="col-sm-12 col-md-4 TradePsy media-middle">
-                        <div class="TradePsy2"><h2>TRADING<br> PSYCHOLOGY</h2></div>
-                        <br>
-                        <div>
-                        <img class="hvr-glow media-object">
-                        <p alt="image of mind as interconnecting coggs"></p>
-                        </div>
+						<div class="col-sm-12 col-md-4 TradePsy media-middle">
+							<div class="TradePsy2">
+								<h2>TRADING<br> PSYCHOLOGY</h2>
+							</div><br>
+							<img src="assets/images/trading-psychology.png" alt="image of mind as interconnecting coggs" class="hvr-glow media-object">
                     </div>
-                    <br>
-                </div>
-                <br>
-                <div>
-                    <p>
-                        <h3>You also get to keep all the course material in a 300 page hardcopy or PDF</h3>
-                    </p>
-                </div>
-                <br>
-                <strong class="hookline">But what would this amazing package cost?</strong>
-                <br>
-                <div class="package-cost">
-                    <div class="col-sm-12 col-md-6 package-cost-121 media-middle">
-                        <div class="package-cost-121">
-                            <h2>1-2-1</h2>
-                        </div>
-                        <br>
-                        <div>
-                        <img class=" hvr-glow media-object">
-                        <p alt="two people seated, one talking to the other"></p>
-                        <h3 class="package-h3">£499 PP FOR 3 DAY INTENSIVE</h3>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-6 package-cost-group media-middle">
-                        <div class="package-cost-group">
-                            <h2>GROUP</h2>
-                        </div>
-                        <br>
-                        <div>
-                        <img class=" hvr-glow media-object">
-                        <p alt="group seated around whiteboard and teacher"></p>
-                        <h3 class="package-h3">£299 PP (MIN 6 PEOPLE) FOR 3 DAY INTENSIVE</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+						</div>
+						<br>
+						<div>
+							<h3>You also get to keep all the course material in a 300 page hardcopy or PDF</h3>
+						</div>
+						<br>
+						<strong class="hookline">But what would this amazing package cost?</strong>
+						<br>
+						<div class="package-cost">
+							<div class="col-sm-12 col-md-6 package-cost-121 media-middle">
+								<div class="package-cost-121">
+									<h2>1-2-1</h2>
+								</div>
+								<br>
+								<div>
+									<img src="assets/images/package-121.jpg" alt="two people seated, one talking to the other" class=" hvr-glow media-object">
+									<h3 class="package-h3">£499 PP FOR 3 DAY INTENSIVE</h3>
+								</div>
+							</div>
+							<div class="col-sm-12 col-md-6 package-cost-group media-middle">
+								<div class="package-cost-group">
+									<h2>GROUP</h2>
+								</div>
+								<br>
+								<div>
+									<img src="assets/images/package-group.jpg" alt="group seated around whiteboard and teacher" class=" hvr-glow media-object">
+									<h3 class="package-h3">£299 PP (MIN 6 PEOPLE) FOR 3 DAY INTENSIVE</h3>
+								</div>
+							</div>
+						</div>
+					</div>
+	</section>
 
-        <!----------An angled section divider separates the Training and Bookings sections-->
-        
-        <section class="section-divider"></section>
+	<!--An angled section divider separates the Training and Bookings sections-->
 
-        <!----------The Bookings section contains an urgent message for public to sign up quickly using a booking's modal form-->
+	<section class="section-divider"></section>
 
-         <section id="bookings" class="container-fluid section bookings">
-            <div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 jumbotron section-container-bookings">
-                <strong class="hookline">Hurry!<br> Book your 2020 place now.</strong>
-                <h3>Places are filling fast due to our small class sizes in our London based offices.<br>
-                Act now to avoid disappointment.<br>Current trainings scheduled for Jan, April, July and Oct. <br> All 1-2-1 bookings subject to available training slots year round.</h3>
-                <p><button class="btn btn-lg btn-warning hvr-grow" data-toggle='modal' data-target='#bookingsModal'>Book Now!</button></p>
-            </div>
-        </section>
+	<!--The Bookings section contains an urgent message for public to sign up quickly using a booking's modal form-->
 
-        <!----------The Course Excerpt section allows the still undecided public to watch, via a YouTube link, some actual training
+	<section id="bookings" class="container-fluid section bookings">
+		<div
+			class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 jumbotron section-container-bookings">
+			<strong class="hookline">Hurry!<br> Book your 2020 place now.</strong>
+			<h3>Places are filling fast due to our small class sizes in our London based offices.<br>
+                Act now to avoid disappointment.<br>Current trainings scheduled for Jan, April, July and Oct.
+				<br> All 1-2-1 bookings subject to available training slots year round.</h3>
+				<p><button class="btn btn-lg btn-warning hvr-grow" data-toggle='modal' data-target='#bookingsModal'>Book Now!</button>
+				</p>
+		</div>
+	</section>
+
+	<!--The Course Excerpt section allows the still undecided public to watch, via a YouTube link, some actual training
         on Technical Analysis aimed at educating, adding trust and creating a sense of value around course-->
 
-       <section id="course-excerpt" class="container-fluid section course-excerpt-section">
-            <div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 section-container-course-excerpt">
-                 <div class="transDiv">
-                     <strong class="hookline">Want a sneak peek of the course content?</strong>
-                 </div>
-                <p>
-                <h3>While our courses are broad and cover Technical Analysis, Money Management and Trading 
-                Psychology, the largest body of knowledge on the web (some confusing and some misleading) is about Technical Analysis. This is
-                the 'nuts and bolts' of how to trade. Most people become very excited about learning Technical Analysis as a way to
-                understand trading in and out of share price movements but often don't know where to start or just feel overwhelmed
-                by the subject. Because there is so much information out there, lets help clear some things up with this great introduction to the topic by one of our support affiliates at a 
-                recent London Training. Enjoy!</h3>
-                </p>
-                <div class="video-container">
-                  <iframe width="280" height="240" src="https://www.youtube.com/embed/rlZRtQkfK04?controls=1"><p>Your browser does not support iFrames</p></iframe>
-                </div>
-            </div>
-        </section>
+	<section id="course-excerpt" class="container-fluid section course-excerpt-section">
+		<div
+			class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 section-container-course-excerpt">
+			<div class="transDiv">
+				<strong class="hookline">Want a sneak peek of the course content?</strong>
+			</div>
+			<h3>While our courses are broad and cover Technical Analysis, Money Management and Trading
+				Psychology, the largest body of knowledge on the web (some confusing and some misleading) is about
+				Technical Analysis. This is
+				the 'nuts and bolts' of how to trade. Most people become very excited about learning Technical Analysis
+				as a way to
+				understand trading in and out of share price movements but often don't know where to start or just feel
+				overwhelmed
+				by the subject. Because there is so much information out there, lets help clear some things up with this
+				great introduction to the topic by one of our support affiliates at a
+				recent London Training. Enjoy!</h3>
+			<div class="video-container">
+				<iframe width="280" height="240" src="https://www.youtube.com/embed/rlZRtQkfK04?controls=1"></iframe>
+			</div>
+		</div>
+	</section>
 
-        <!----------Contact section is for general queries via a contact modal form-->
+	<!--Contact section is for general queries via a contact modal form-->
 
-        <section id="contact" class="container-fluid section contact">
-            <div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 section-container-contact">
-                <strong class="hookline hookline-contact">Get in touch<br> for anything else.</strong>
-                <p><button class="btn btn-lg btn-warning hvr-grow" data-toggle='modal' data-target='#contactModal'>Get In Touch Now</button></p>
-            </div>
-        </section>
+	<section id="contact" class="container-fluid section contact">
+		<div
+			class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 section-container-contact">
+			<strong class="hookline hookline-contact">Get in touch<br> for anything else.</strong>
+			<p><button class="btn btn-lg btn-warning hvr-grow" data-toggle='modal' data-target='#contactModal'>Get In Touch Now</button>
+			</p>
+		</div>
+	</section>
+	<!--Footer section-->
 
-        <!----------Footer section-->
+	<footer class="container container-fluid footer col-sm-2">
 
-        <footer class="container container-fluid footer col-sm-2">
+		<!--Footer button for Legal Stuff menu and links which open on separate page-->
 
-        <!----------Footer button for Legal Stuff menu and links which open on separate page-->
-
-            <div id="legal-stuff" class="col-xs-12 col-sm-6 nav dropup">
-                <button class="btn dropbtn footer-list dropdown-toggle menuitem" type="button" data-toggle="dropdown" data-target="dropdown-menu"><span class="hvr-grow">Legal Stuff</span>
+		<div id="legal-stuff" class="col-xs-12 col-sm-6 nav dropup">
+			<button class="btn dropbtn footer-list dropdown-toggle menuitem" type="button" data-toggle="dropdown" data-target="dropdown-menu"><span class="hvr-grow">Legal Stuff</span>
                 </button>
-                <ul class="nav navbar-nav dropdown-menu dropup-content">
-                    <li class="dropdownItem"><a target="_blank" href="legal.html#copyright" class="dropdownLink">Copyright</a></li>
-                    <li class="dropdownItem"><a target="_blank" href="legal.html#cookie-policy" class="dropdownLink">Cookie Policy</a></li>
-                    <li class="dropdownItem"><a target="_blank" href="legal.html#gdpr" class="dropdownLink">GDPR</a></li>
-                    <li class="dropdownItem"><a target="_blank" href="legal.html#advise-disclaimer" class="dropdownLink">Advice Disclaimer</a></li>
-                    <li class="dropdownItem"><a target="_blank" href="legal.html#credits" class="dropdownLink">Credits</a></li>
-                </ul>
-            </div>
+			<ul class="nav navbar-nav dropdown-menu dropup-content">
+				<li class="dropdownItem"><a target="_blank" href="legal.html#copyright"
+						class="dropdownLink">Copyright</a></li>
+				<li class="dropdownItem"><a target="_blank" href="legal.html#cookie-policy" class="dropdownLink">Cookie
+						Policy</a></li>
+				<li class="dropdownItem"><a target="_blank" href="legal.html#gdpr" class="dropdownLink">GDPR</a></li>
+				<li class="dropdownItem"><a target="_blank" href="legal.html#advise-disclaimer"
+						class="dropdownLink">Advice Disclaimer</a></li>
+				<li class="dropdownItem"><a target="_blank" href="legal.html#credits" class="dropdownLink">Credits</a>
+				</li>
+			</ul>
+		</div>
 
-            <!----------Footer section social icons and relevant site links-->
-            
-            <div class="footer-social col-xs-12 col-sm-6">
-                <ul class="list-inline social-links">
-                    <li><a target="_blank" href="https://www.facebook.com/"><i class="fa fa-facebook hvr-icon-grow-rotate"></i></a></li>
-                    <li><a target="_blank" href="https://twitter.com/"><i class="fa fa-twitter hvr-icon-grow-rotate"></i></a></li>
-                    <li><a target="_blank" href="https://www.linkedin.com"><i class="fa fa-linkedin hvr-icon-grow-rotate"></i></a></li>
-                    <li><a target="_blank" href="https://www.youtube.com/"><i class="fa fa-youtube hvr-icon-grow-rotate"></i></a></li>
-                </ul>
-            </div>
-        </footer>
+		<!--Footer section social icons and relevant site links-->
 
-        <!-------End of Footer section-->
+		<div class="footer-social col-xs-12 col-sm-6">
+			<ul class="list-inline social-links">
+				<li><a target="_blank"
+						href="https://www.facebook.com/"><i class="fa fa-facebook hvr-icon-grow-rotate"></i></a></li>
+				<li><a target="_blank"
+						href="https://twitter.com/"><i class="fa fa-twitter hvr-icon-grow-rotate"></i></a></li>
+				<li><a target="_blank"
+						href="https://www.linkedin.com"><i class="fa fa-linkedin hvr-icon-grow-rotate"></i></a></li>
+				<li><a target="_blank"
+						href="https://www.youtube.com/"><i class="fa fa-youtube hvr-icon-grow-rotate"></i></a></li>
+			</ul>
+		</div>
+	</footer>
 
-        <!-------Bookings modal for Bookings section form-->
-        
-        <div class="modal fade" id="bookingsModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close-bookings" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title" id="myModalLabel">Trade Safe Course Booking Request</h4>
-                    </div>
-                    <div class="modal-body">
+	<!--End of Footer section-->
 
-                    <!------------------------Modal data is posted to CI formdump the same as course material exercise data-->
+	<!--Bookings modal for Bookings section form-->
 
-                        <form action="https://formdump.codeinstitute.net/" method="post">
-                            <div class="form-group">
-                                <label for="name">Name</label>
-                                <input type="text" class="form-control" id="name" placeholder="Your name" required>
+	<div class="modal fade" id="bookingsModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close-bookings" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title" id="myModalLabel">Trade Safe Course Booking Request</h4>
+				</div>
+				<div class="modal-body">
+
+					<!--Modal data is posted to CI formdump the same as course material exercise data-->
+
+					<form action="https://formdump.codeinstitute.net/" method="post">
+						<div class="form-group">
+							<label for="name">Name</label>
+							<input type="text" class="form-control" id="name" placeholder="Your name" required>
                             </div>
-                            <div class="form-group">
-                                <label for="email">Email address</label>
-                                <input type="email" class="form-control" id="email" placeholder="Your Email Address" required>
-                                <p class="help-block">Never shared with third parties</p>
+							<div class="form-group">
+								<label for="email">Email address</label>
+								<input type="email" class="form-control" id="email" placeholder="Your Email Address" required>
+								<p class="help-block">Never shared with third parties</p>
+							</div>
+							<div class="form-group">
+								<label for="mobile">Mobile</label>
+								<input type="tel" class="form-control" id="mobile" placeholder="Your Mobile Phone Number" required>
                             </div>
-                            <div class="form-group">
-                                <label for="mobile">Mobile</label>
-                                <input type="tel" class="form-control" id="mobile" placeholder="Your Mobile Phone Number" required>
+								<div class="form-group">
+									<label for="type">Training: 1-2-1 or Group</label>
+									<input type="text" class="form-control" id="type" placeholder="Type 1-2-1 Or Group Number Min 6" required>
                             </div>
-                            <div class="form-group">
-                                <label for="type">Training: 1-2-1 or Group</label>
-                                <input type="text" class="form-control" id="type" placeholder="Type 1-2-1 Or Group Number Min 6" required>
+									<div class="form-group">
+										<label for="booking">Training Month</label>
+										<input type="text" class="form-control" id="booking" placeholder="Group Bookings Only." required>
                             </div>
-                            <div class="form-group">
-                                <label for="booking">Training Month</label>
-                                <input type="text" class="form-control" id="booking" placeholder="Group Bookings Only." required>
-                            </div>
-                            <button type="submit" value="submit request!" class="btn btn-success hvr-grow booking-submit-button">Submit Request!</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
+										<button type="submit" value="submit request!" class="btn btn-success hvr-grow booking-submit-button">Submit Request!</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
 
-        <!-------Contact modal for Contact section form-->
+	<!--Contact modal for Contact section form-->
 
-        <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModal" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header2">
-                        <h4 class="modal-title" id="modal-title">Contact Us:<br>info@tradesafe.com</h4>
-                        <button type="button" class="close-contact" data-dismiss="modal" aria-label="Close">
+	<div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModal"
+		aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header2">
+					<h4 class="modal-title" id="modal-title">Contact Us:<br>info@tradesafe.com</h4>
+						<button type="button" class="close-contact" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                         </button>
-                    </div>
-                    <div class="modal-body">
+				</div>
+				<div class="modal-body">
 
-                    <!------------------------Modal data is posted to CI formdump the same as course material exercise data-->
+					<!--Modal data is posted to CI formdump the same as course material exercise data-->
 
-                        <form action="https://formdump.codeinstitute.net/" method="post">
-                            <div class="form-group">
-                                <label for="name">Name</label>
-                                <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+					<form action="https://formdump.codeinstitute.net/" method="post">
+						<div class="form-group">
+							<label for="name">Name</label>
+							<input type="text" class="form-control" id="name2" placeholder="Your Name" required>
                             </div>
-                            <div class="form-group">
-                                <label for="email">Email address</label>
-                                <input type="email" class="form-control" id="email" placeholder="Your Email Address" required>
-                                <p class="help-block">Never shared with third parties</p>
+							<div class="form-group">
+								<label for="email">Email address</label>
+								<input type="email" class="form-control" id="email2" placeholder="Your Email Address" required>
+								<p class="help-block">Never shared with third parties</p>
+							</div>
+							<div class="form-group">
+								<label for="mobile">Mobile</label>
+								<input type="tel" class="form-control" id="mobile2" placeholder="Your Mobile Phone Number" required>
                             </div>
-                            <div class="form-group">
-                                <label for="mobile">Mobile</label>
-                                <input type="tel" class="form-control" id="mobile" placeholder="Your Mobile Phone Number" required>
-                            </div>
-                            <div class="form-group">
-                                <label for="message-text" class="col-form-label">Your Message:</label>
-                                <textarea class="form-control" id="message-text" placeholder="How Else Can We Help?" required></textarea>
-                            </div>
-                            <button type="submit" value="send message" class="btn btn-success hvr-grow contact-submit-button">Send message</button>
-                        </form>
-                    </div>
-                </div>
-            </div> 
-        </div> 
+								<div class="form-group">
+									<label for="message-text" class="col-form-label">Your Message:</label>
+									<textarea class="form-control" id="message-text" placeholder="How Else Can We Help?" required></textarea>
+								</div>
+								<button type="submit" value="send message" class="btn btn-success hvr-grow contact-submit-button">Send message</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
 
-        <!-------Additional external scripts-->      
+	<!--Additional external scripts-->
 
-                <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    </body>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+		integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+		integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
+	</script>
+
+</body>
 
 </html>
