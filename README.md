@@ -59,7 +59,7 @@
 # Features Left to Implement
 
    - #### The optional Testimonials section. This requires JavaScript and would have several images and text continuously self rotate from the right to left with pause on each.
-   - #### The top navbar disappearing on scroll down except for the toggle icon for navigation. The footer navbar to appear on scroll up.
+   - #### The top navbar disappearing on scroll down except for the toggle icon ( Hamburger menu ) for navigation. The footer navbar to appear on scroll up.
    - #### All images in Training section, when hovered over, reveal card with course details and costings instead of lengthy text before static images.
    - #### Both modal forms, when data submitted, to post a confirmation form on same page.
 
@@ -81,7 +81,7 @@
 #### Dev Tools Responsive testing covers the following devices: Galaxy S5, Pixel 2, Pixel 2 XL, iPhone 5/SE, iPhone 6/7/8, iPhone 6/7/8 Plus, iPhone X, iPad and iPad Pro.
 #### Real life testing occured at the middle and end stage of project completion. This included testing on various devices by myself and 5 others.
 ### Devices used and their browser types:
-  - #### iPhone 5 using Safari browser.
+  - #### iPhone 5/SE using Safari browser.
   - #### MacBook Pro using Google Chrome browser.
   - #### iPad using Safari browser.
   - #### iPhone 7 using Chrome version 70.0.3945.73.
@@ -94,7 +94,7 @@
   - #### Heading font too large on smaller screens so used @media to reduce size along with a reduction in size of the topnav.
   - #### The Burger Menu (I've been calling it a Toggle-Button in my CSS classes as was unaware of this name for it) when clicked or touched a few times will disappear and reappear if its location space is clicked/touched again. Thinking this may be a JavaScript fix and as such have not rectified it yet.
   - #### While the idea of the Checkmark in Training was good, positioning relative to text was an issue not rectified. Used @ media to limit its visibility thus removing it from smaller and very large screens.
-#### I have ignored some warnings in the W3 HTML and CSS Validation process as they appeared irrelevent to the site/code as created or produced unintended errors when actioned and tested in Dev Tools. All other suggestions and syntax improvements were implemented. 
+#### I have ignored some warnings in the W3 HTML Validation process as they appeared irrelevent to the site/code as created. All other errors and syntax improvements were implemented and on final check all html and css files were error free.
  
 # Contact form:
 #### The site uses 2 forms. One in the Booking section and one in the Contact section. Each form is formatted for the same same user responses.
@@ -108,7 +108,16 @@
 #### Project files on GitHub: <https://github.com/Oldboycypher/Milestone-Project-One>
 #### The site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html.
 #### Deployed Site on GitHub Pages: <https://oldboycypher.github.io/Milestone-Project-One/index.html>
-#### To run locally, you can clone this repository directly into the editor of your choice by pasting 'git clone <https://github.com/Oldboycypher/Milestone-Project-One.git>' into your terminal. To cut ties with this GitHub repository, type 'git remote rm origin' into the terminal.
+#### This site was built in the GitPod IDE which acts as an extension of or link to your GitHub repository. To deploy a project directly into GitPod from GitHub or its URL;
+ - #### Simply access the project above via its GitHub link i.e. <https://github.com/Oldboycypher/Milestone-Project-One>
+ - #### Add the following prefix to the URL: gitpod.io/#
+ - #### You should now have a new URL like this; gitpod.io/#https://github.com/Oldboycypher/Milestone-Project-One
+ - #### Click link or copy and past new URL into your browser and click enter. This will take you to the project files in a newly created work environment within GitPod.
+ - #### Here you have a screen divided horizontally in two with a section to the left containing all the project files. You can open these by clicking on them. Each one will open in a new tab within the top half of the central screen. The bottom half of the screen is the terminal.
+ - #### To preview the site from here or open in a new browser, click in the terminal next to the $. Then type: python3 -m http.server
+ - #### Click enter. A message box saying 'A service is listening on port 8000 but is not exposed' will appear. Click on 'Expose" button.
+ - #### Two new buttons appear. You now can chose to click on 'Open Preview" which will open project within the GitPod screen to the right. Alternatively click on 'Open Browser' for project to be deployed on a new page in your devices browser.
+#### To run locally, you can clone this repository directly into the editor/IDE of your choice by pasting 'git clone <https://github.com/Oldboycypher/Milestone-Project-One.git>' into your terminal. To cut ties with this GitHub repository, type 'git remote rm origin' into the terminal.
 
 
 # Credits
