@@ -859,11 +859,3 @@ footer button {
     }
 }
 
-/*------CSS validation icon-----*/
-
-.cssVal {
-    float:right;
-    position: fixed;
-    bottom: 25px;
-    right: 0;
-}
